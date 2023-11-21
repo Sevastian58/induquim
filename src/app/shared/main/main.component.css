@@ -1,0 +1,104 @@
+.main-descripcion{
+  width: 90vw;
+  height: 70vh;
+  text-align: center;
+  background-image: url("https://i.imgur.com/tzOcJXv.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 1vh;
+  color: white;
+}
+.main-descripcion>img{
+  width: 36vw;
+  height: 60vh;
+  text-align: center;
+  float: left;
+}
+.main-descripcion>p{
+  width: 41vw;
+  text-align: center;
+}
+#main-descripcion-oferta{
+  text-align: center;
+}
+#main-descripcion-oferta>img{
+  width: 40vw;
+  min-width: 400px;
+}
+#main-descripcion-oferta>.main-descripcion-info{
+  width: 40vw;
+  min-width: 400px;
+}
+.example-form-field{
+  width: 20vw;
+}
+.example-card {
+  max-width: 200px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.content-img{
+  width: 190px;
+}
+.main-descripcion-oferta-item{
+  background-color: rgb(97, 97, 200);
+  width: 300px;
+  height: 300px;
+  margin: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4{
+  color: white;
+}
+
+.producto-item{
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+.last-item{
+  margin-bottom: 25vh!important;
+}
+
+.producto-item-img-fondo{
+  background-image: linear-gradient(34deg,rgb(61, 121, 194) 0%,#fb6178 100%);
+  width: 50vw;
+  height: 400px;
+  min-width: 370px;
+}
+.producto-item-img-fondo img{
+  height: 85vh;
+  min-width: 370px;
+}
+.producto-item-texto{
+  padding: 5vw;
+  width: 30vw;
+  min-width: 370px;
+  height: 400px;
+  box-shadow: 6px 20px 10px rgb(119, 113, 113);
+}
+
+.producto-item-img-fondo2{
+  background-image: linear-gradient(34deg,#fb6178 0%,rgb(61, 121, 194)  100%);
+  width: 50vw;
+  height: 400px;
+  min-width: 370px;
+}
+.producto-item-img-fondo2 img{
+  height: 85vh;
+  min-width: 370px;
+}
+.producto-item-texto2{
+  padding: 5vw;
+  width: 30vw;
+  min-width: 370px;
+  height: 400px;
+  box-shadow: -5px 14px 10px rgb(119, 113, 113);
+}
+

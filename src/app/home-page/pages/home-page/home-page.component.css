@@ -1,0 +1,6 @@
+#img-bienvenida{
+  width: 30vw;
+}
+.carousel-item{
+  background-image: url("../../../../assets/img/banner1.png");
+}

@@ -1,0 +1,154 @@
+<div class="d-flex flex-column justify-content-center align-items-center mt-5">
+  <h1 class="text-center mb-5">Lo que te ofrecemos</h1>
+  <div id="main-descripcion-oferta" class="d-flex flex-wrap justify-content-center align-items-center">
+    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+      <h4>Calcificante oral</h4>
+      <img src="../../../assets/img/icon/vitamina1-white.png" class="icono">
+      <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 3]">Buscar</button>
+    </div>
+    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+      <h4 class="m-1">Antiparasitario-oral</h4>
+      <img src="../../../assets/img/icon/vitamina2-white.png" class="icono">
+      <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 5]">Buscar</button>
+    </div>
+    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+      <h4>Suplemento energetico</h4>
+      <img src="../../../assets/img/icon/vitamina3-white.png" class="icono">
+      <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 4]">Buscar</button>
+    </div>
+    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+      <h4>Sales minerales</h4>
+      <img src="../../../assets/img/icon/vitamina4-white.png" class="icono">
+      <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 7]">Buscar</button>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex flex-column justify-content-center align-items-center mt-5">
+  <h1 class="text-center mb-2">Algunos de nuestros productos</h1>
+  <div id="lista-productos" class="d-flex flex-column justify-content-center align-items-center">
+
+    <!--<mat-card class="example-card m-3" *ngFor="let item of listaProductosLimit">
+      <mat-card-header>
+        <mat-card-title>{{item.name}}</mat-card-title>
+        <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content class="d-flex flex-row justify-content-center">
+        <img class="content-img" mat-card-image src="{{item.imagen_url[0]}}" alt="Photo of {{item.name}}">
+      </mat-card-content>
+      <mat-card-actions class="d-flex flex-row justify-content-center">
+        <a mat-raised-button color="accent" [routerLink]="['/producto/detalle', item.id]">Ver más</a>
+      </mat-card-actions>
+    </mat-card>-->
+
+
+    <!--CAROUSEL-->
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item" *ngFor="let item of listaProductos; let i = index" [class.active]="i === 0" data-bs-interval="10000">
+
+
+          <div class="producto-item d-flex flex-wrap align-items-center justify-content-center">
+            <div class="producto-item-img-fondo d-flex flex-row align-items-center justify-content-center ">
+              <img src="{{item.imagen_url[0]}}" alt="img de {{item.name}}">
+            </div>
+            <div class="producto-item-texto d-flex flex-column justify-content-center align-items-center">
+              <div class="producto-item-texto-titulo">
+                <h5>{{item.name}}</h5>
+              </div>
+              <div class="producto-item-texto-descripcion">
+                <p>{{item.indicaciones | slice:0:250 }}</p>
+              </div>
+              <div class="producto-item-texto-button">
+                <button class="btn btn-primary" [routerLink]="['/producto/detalle', item.id]">Ver más</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--CAROUSEL-->
+
+    <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item" *ngFor="let item of listaProductosReverso; let i = index" [class.active]="i === 0"  data-bs-interval="10000">
+
+          <div class="producto-item last-item d-flex flex-wrap align-items-center justify-content-center mt-5 mb-5">
+            <div class="producto-item-texto2 d-flex flex-column justify-content-center align-items-center">
+              <div class="producto-item-texto-titulo">
+                <h5>{{item.name}}</h5>
+              </div>
+              <div class="producto-item-texto-descripcion">
+                <p>{{item.indicaciones | slice:0:250 }}</p>
+              </div>
+              <div class="producto-item-texto-button">
+                <button class="btn btn-primary" [routerLink]="['/producto/detalle', item.id]">Ver más</button>
+              </div>
+            </div>
+            <div class="producto-item-img-fondo2 d-flex flex-row align-items-center justify-content-center ">
+              <img src="{{item.imagen_url[0]}}" alt="img de {{item.name}}">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- Sección de productos destacados -->
+<!--<div id="productos" class="container mt-5">
+  <h2 class="text-center mb-4">Productos Destacados</h2>
+  <div class="row">
+
+      <div class="col-md-4" *ngFor="let item of listaProductosLimit">
+          <div class="card">
+            <img class="content-img" mat-card-image src="{{item.imagen_url[0]}}" alt="Photo of {{item.name}}">
+              <div class="card-body">
+                  <h5 class="card-title">Vitamina A+</h5>
+                  <p class="card-text">Mejora la visión y el sistema inmunológico de tus animales.</p>
+                  <a href="#" class="btn btn-primary">Detalles</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>-->
+  </div>
+</div>
+
+<!--<div id="main-about-products" class="d-flex flex-column justify-content-center align-items-center mt-5">
+  <h1 class="text-center mb-3">Te ofrecemos productos de calidad</h1>
+  <div class="d-flex flex-wrap justify-content-center align-items-center main-descripcion">
+    <img src="https://i.imgur.com/q7ZBtX6.png">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum nulla deleniti placeat. Atque error sed laborum nesciunt magni ipsam. Ipsum, incidunt sint eum laborum voluptas voluptate in ad nostrum!
+      Minima harum, laudantium amet ipsa expedita quod omnis eius deserunt facilis sit hic eveniet nesciunt esse, perferendis at reprehenderit ratione. Magni maxime iure, omnis recusandae illum fuga? Neque, debitis provident.
+    </p>
+  </div>
+</div>-->
+

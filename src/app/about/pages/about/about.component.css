@@ -1,0 +1,16 @@
+header {
+  background-color: #f8f9fa; /* Color celeste claro */
+  padding: 100px 0;
+}
+
+header h1, header p {
+  color: #343a40; /* Color texto oscuro */
+}
+
+main {
+  padding: 50px 0;
+}
+
+main h2, main p {
+  color: #343a40; /* Color texto oscuro */
+}

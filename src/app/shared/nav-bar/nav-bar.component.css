@@ -1,0 +1,9 @@
+nav{
+  background-color: #2196F3 !important;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: rgb(160, 153, 153);
+}

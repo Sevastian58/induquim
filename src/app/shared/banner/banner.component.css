@@ -1,0 +1,29 @@
+#banner{
+  background-image: url('../../../assets/img/banner1.png');
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+h3{
+  color: white;
+  margin-top: 14vh;
+}
+#banner-descripcion{
+  float: right;
+}
+h1{
+  color: black;
+  margin-top: 5vh;
+}
+button{
+  width: 200px;
+  margin-top: 40vh;
+}
+.linea{
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

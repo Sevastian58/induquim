@@ -1,0 +1,20 @@
+.example-form-field{
+  width: 20vw;
+}
+.example-card {
+  max-width: 200px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.content-img{
+  width: 100px;
+}
+.my-pagination ::ng-deep .ngx-pagination .current {
+  background: #2196F3;
+}
+mat-form-field{
+  min-width: 300px;
+}

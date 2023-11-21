@@ -1,0 +1,61 @@
+<mat-sidenav-container fullscreen>
+  <app-nav-bar></app-nav-bar>
+  <div class="d-flex flex-row m-4 justify-content-center">
+    <div id="producto-img" class="d-flex flex-column justify-content-center align-items-center m-2">
+      <div id="producto-img-button">
+        <button mat-raised-button color="accent"  id="producto-img-button-left" (click)="anterior()">Anterior</button>
+        <button mat-raised-button color="accent" id="producto-img-button-rigth" (click)="siguiente()">Siguiente</button>
+      </div>
+      <img src="{{producto.imagen_url[posImg]}}" id="producto-img-main">
+      <div id="producto-img-lista">
+        <div *ngFor="let item of producto.imagen_url">
+          <img src="{{item}}"  *ngIf="item!==producto.imagen_url[posImg]" class="producto-img-lista-item">
+        </div>
+         </div>
+    </div>
+    <div id="producto-descripcion" class="m-2">
+      <div id="producto-titulo" class="d-flex flex-row justify-content-center">
+        <h3>{{producto.name}}</h3>
+      </div>
+
+      <div id="producto-indicaciones" class="d-flex flex-column">
+        <h4>Indicaciones</h4>
+        <div id="producto-indicaciones-descripcion" class="d-flex flex-column align-items-center">
+          <p>{{producto.indicaciones}}</p>
+        </div>
+      </div>
+
+      <div id="producto-periodo-retiro-desc" *ngIf="producto.periodo_retiro_descripcion!=''" class="d-flex flex-column">
+        <h4>Periodo de retiro</h4>
+        <div id="producto-periodo-retiro-desc-descripcion" class="d-flex flex-column align-items-center">
+          <p>{{producto.periodo_retiro_descripcion}}</p>
+        </div>
+      </div>
+
+      <div id="producto-almacenamiento" class="d-flex flex-column">
+        <h4>Almacenamiento</h4>
+        <div id="producto-almacenamiento-descripcion" class="d-flex flex-column align-items-center">
+          <p>{{producto.almacenamiento}}</p>
+        </div>
+      </div>
+
+      <div id="producto-contra-indicaciones" class="d-flex flex-column">
+        <h4>Contra indicaciones</h4>
+        <div id="producto-contra-indicaciones-descripcion" class="d-flex flex-column align-items-center">
+          <p *ngIf="producto.contra_indicaciones==true" >Si presenta contra indicaciones</p>
+          <p *ngIf="producto.contra_indicaciones==false">No presenta contra indicaciones</p>
+        </div>
+      </div>
+
+      <div id="producto-periodo-retiro" class="d-flex flex-column">
+        <h4>Periodo de retiro</h4>
+        <div id="producto-contra-indicaciones-descripcion" class="d-flex flex-column align-items-center">
+          <p *ngIf="producto.periodo_retiro==true" >Si presenta periodo de retiro</p>
+          <p *ngIf="producto.contra_indicaciones==false">No presta periodo de retiro</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</mat-sidenav-container>

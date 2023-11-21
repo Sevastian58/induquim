@@ -1,0 +1,87 @@
+[
+  {
+    "id":1,
+    "descripcion":"Suplemento Energetico",
+    "img":"../../../assets/img/animales/perrito.png"
+  },
+  {
+    "id":2,
+    "descripcion":"Suplemento Nutricional",
+    "img":"../../../assets/img/animales/animalitos2.png"
+  },
+  {
+    "id":3,
+    "descripcion":"Calcificante oral",
+    "img":""
+  },
+  {
+    "id":4,
+    "descripcion":"Superenergizante-forsforo",
+    "img":""
+  },
+  {
+    "id":5,
+    "descripcion":"Antiparasitario-oral",
+    "img":""
+  },
+  {
+    "id":6,
+    "descripcion":"Antiparasitario",
+    "img":""
+  },
+  {
+    "id":7,
+    "descripcion":"Sales minerales",
+    "img":""
+  },
+  {
+    "id":8,
+    "descripcion":"Antihelmetico",
+    "img":""
+  },
+  {
+    "id":9,
+    "descripcion":"Pour on",
+    "img":""
+  },
+  {
+    "id":10,
+    "descripcion":"Antibiotico",
+    "img":""
+  },
+  {
+    "id":11,
+    "descripcion":"Antiséptico-desinfectante",
+    "img":""
+  },
+  {
+    "id":12,
+    "descripcion":"Embrocación",
+    "img":""
+  },
+  {
+    "id":13,
+    "descripcion":"Laxante",
+    "img":""
+  },
+  {
+    "id":14,
+    "descripcion":"Abono foliar",
+    "img":""
+  },
+  {
+    "id":15,
+    "descripcion":"Full Line",
+    "img":""
+  },
+  {
+    "id":16,
+    "descripcion":"Kreso",
+    "img":""
+  },
+  {
+    "id":17,
+    "descripcion":"Desinfectante",
+    "img":""
+  }
+]

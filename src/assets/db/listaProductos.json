@@ -1,0 +1,576 @@
+[
+  {
+    "id":1,
+    "name":"TONICON",
+    "tipoProducto":{
+      "id":1,
+      "descripcion":"Suplemento Energético"
+    },
+    "indicaciones":"Para vacunos de engorde, vacunos en lactaci6n, vacunos en transici6n, terneros, ovinos, caprinos, camelidos sudam., equinos, porcinos, aves, cuyes, conejos, caninos y felinos.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"Administrar el producto por via oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/TONICON 1.png",
+                  "../../../assets/img/productos/TONICON 2.png",
+                  "../../../assets/img/productos/TONICON 3.png",
+                  "../../../assets/img/productos/TONICON 4.png"]
+  },
+  {
+    "id":2,
+    "name":"ROBUSTO",
+    "tipoProducto":{
+      "id":2,
+      "descripcion":"Suplemento Nutricional"
+    },
+    "indicaciones":"Siendo un Suplemento Nutricional esta indicado para el tratamiento y prevención de enfermedades carenciales, como las ocasionadas por deficiencia de vitaminas, minerales y aminoacidos. Se recomienda seguir la dosificación indicada.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"Administrar el producto por vía oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/ROBUSTO 1.png",
+                  "../../../assets/img/productos/ROBUSTO 2.png",
+                  "../../../assets/img/productos/ROBUSTO 3.png",
+                  "../../../assets/img/productos/ROBUSTO 4.png"]
+  },
+  {
+    "id":3,
+    "name":"KALMITA",
+    "tipoProducto":{
+      "id":3,
+      "descripcion":"Calcificante Oral"
+    },
+    "indicaciones":"Esta indicado para el tratamiento y prevención de efermedades Carenciales como la hipocalcenia , ocasionadas por deficiencia de Calcio, Fósforo, Magnesio y Glucosa en Vacunos, Ovinos, Caprinos, Camelidos Sudamericanos, Equinos, Porcinos, Aves, Cuyes, Conejos, Caninos y Felinos.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"Administrar el producto por via oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/KALMITA 1.png",
+                "../../../assets/img/productos/KALMITA 2.png",
+                "../../../assets/img/productos/KALMITA 3.png",
+                "../../../assets/img/productos/KALMITA 4.png"]
+  },
+  {
+    "id":4,
+    "name":"WAIKI",
+    "tipoProducto":{
+      "id":4,
+      "descripcion":"Superenergizante-forsforo"
+    },
+    "indicaciones":"En casos de debilidad general y fatiga muscular, preparación de los animales para competencias (caballos de carreras, gallos de peleas, toros de lidia) y exhibiciones, estres nutricional, animales de alta producción, animales de trabajo (arado y tiro).",
+    "periodo_retiro_descripcion":"",
+    "administracion":"Administrar el producto por via oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/WAIKI 1.png",
+                  "../../../assets/img/productos/WAIKI 2.png",
+                  "../../../assets/img/productos/WAIKI 3.png",
+                  "../../../assets/img/productos/WAIKI 4.png"]
+  },
+  {
+    "id":5,
+    "name":"SANITO 22.2%",
+    "tipoProducto":{
+      "id":5,
+      "descripcion":"Antiparasitario-oral"
+    },
+    "indicaciones":"SANITO 22.2%, es un antiparasitario completo de acción total para el control y tratamiento de: Gusanos del estómago, Gusanos intestinales. La combinación de Fenbendazol e Ivermectina amplía el rango de acción a parásitos resistentes a cualquiera de ambos principios activos. Gusanos pulmonares, Tenias. El Fenbedazol se encuentra en la fórmula en una concentración(10mg/kg) con efecto tenicida",
+    "periodo_retiro_descripcion":"28 días",
+    "administracion":"Administrar el producto por via oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/SANITO 1.png",
+                  "../../../assets/img/productos/SANITO 2.png",
+                  "../../../assets/img/productos/SANITO 3.png",
+                  "../../../assets/img/productos/SANITO 4.png",
+                  "../../../assets/img/productos/SANITO 5.png",
+                  "../../../assets/img/productos/SANITO 6.png",
+                  "../../../assets/img/productos/SANITO 7.png",
+                  "../../../assets/img/productos/SANITO 8.png"]
+  },
+  {
+    "id":6,
+    "name":"PARACUYES",
+    "tipoProducto":{
+      "id":5,
+      "descripcion":"Antiparasitario-oral"
+    },
+    "indicaciones":"Paracuyes esta indicado para el tratamiento de infecciones parasitarias causadas por: Fasciola hepatica, Paraspidodera uncinata, Trichuris spp, Capillaria spp, Trichostrongylus colubriformis",
+    "periodo_retiro_descripcion":"28 días",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PARACUYES 1.png",
+                  "../../../assets/img/productos/PARACUYES 2.png",
+                  "../../../assets/img/productos/PARACUYES 3.png",
+                  "../../../assets/img/productos/PARACUYES 4.png"]
+  },
+  {
+    "id":7,
+    "name":"WASON A15%",
+    "tipoProducto":{
+      "id":6,
+      "descripcion":"Antiparasitario"
+    },
+    "indicaciones":"Es un antiparasitario interno, antihelmíntico con amplio espectro de acción, elimina la carga parasitaria en los animales domésticos. -Nematodos Gastrointestinales(gusanos redondos). -Nematodos Pulmonares(gusanos redondos) -Tenias(gusanos planos) - Tremátodos: Fasciola hepática(adulta).",
+    "periodo_retiro_descripcion":"Carne: 28 días. Leche: No administrar en animales en lactancia cuya producción sea destinada para el consumo humano.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/WASON A15� 1.png",
+                  "../../../assets/img/productos/WASON A15� 2.png",
+                  "../../../assets/img/productos/WASON A15� 3.png",
+                  "../../../assets/img/productos/WASON A15� 4.png",
+                  "../../../assets/img/productos/WASON A15� 5.png",
+                  "../../../assets/img/productos/WASON A15� 6.png",
+                  "../../../assets/img/productos/WASON A15� 7.png",
+                  "../../../assets/img/productos/WASON A15� 8.png"]
+  },
+  {
+    "id":8,
+    "name":"WASON T15%",
+    "tipoProducto":{
+      "id":6,
+      "descripcion":"Antiparasitario"
+    },
+    "indicaciones":"Es altamente eficaz contra todos los estadías evolutivos de fasciola hepática, más de seis semanas y contra formas inmaduas de hasta una semana de edad, tiene efecto residual, ya que después de una sola aplicación no existen huevos de fasciola en heces hasta por 11 semanas. Tremátodos: Fasciolas hepáticas en estadios inmaduras y adultas.",
+    "periodo_retiro_descripcion":"Carne: 28 días. Leche: 07 días.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/WASON T15� 1.png",
+                  "../../../assets/img/productos/WASON T15� 2.png",
+                  "../../../assets/img/productos/WASON T15� 3.png",
+                  "../../../assets/img/productos/WASON T15� 4.png",
+                  "../../../assets/img/productos/WASON T15� 5.png",
+                  "../../../assets/img/productos/WASON T15� 6.png",
+                  "../../../assets/img/productos/WASON T15� 7.png",
+                  "../../../assets/img/productos/WASON T15� 8.png"]
+  },
+  {
+    "id":9,
+    "name":"WASON 22%",
+    "tipoProducto":{
+      "id":5,
+      "descripcion":"Antiparasitario-oral"
+    },
+    "indicaciones":"WASON 22% es un antiparasitario completo de acción total para el control y tratamiento simultáneo de parasitosis internas, siendo de vital importancia en la crianza de rumiantes, ya que los parásitos gastrointestinales y pulmonares ocasionan serios transtornos en toda etapa.",
+    "periodo_retiro_descripcion":"Carne: 40 días. Leche: No administrar a vacas lecheras cuya producción sea destinada para consumo humano.",
+    "administracion":"Administrar el producto por via oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/WASON 22� 1.png",
+                  "../../../assets/img/productos/WASON 22� 2.png",
+                  "../../../assets/img/productos/WASON 22� 3.png",
+                  "../../../assets/img/productos/WASON 22� 4.png",
+                  "../../../assets/img/productos/WASON 22� 5.png",
+                  "../../../assets/img/productos/WASON 22� 6.png",
+                  "../../../assets/img/productos/WASON 22� 7.png",
+                  "../../../assets/img/productos/WASON 22� 8.png"]
+  },
+  {
+    "id":10,
+    "name":"WASON R24%",
+    "tipoProducto":{
+      "id":6,
+      "descripcion":"Antiparasitario"
+    },
+    "indicaciones":"Está indicado en bovinos, ovinos, caprinos y camélidos sudamericanos. La combinación de los 2 fármacos garantizan la eficacia Antiparasitaria para los parásitos gastrointestinales y pulmonares que ocasionan serios transtornos en toda la etapa productiva del animal.",
+    "periodo_retiro_descripcion":"Carne:28 días. Leche:No administrar a vacas en producción de leche destinada para consumo humano.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/WASON R24� 1.png",
+                  "../../../assets/img/productos/WASON R24� 2.png",
+                  "../../../assets/img/productos/WASON R24� 3.png",
+                  "../../../assets/img/productos/WASON R24� 4.png",
+                  "../../../assets/img/productos/WASON R24� 5.png",
+                  "../../../assets/img/productos/WASON R24� 6.png",
+                  "../../../assets/img/productos/WASON R24� 7.png",
+                  "../../../assets/img/productos/WASON R24� 8.png"]
+  },
+  {
+    "id":11,
+    "name":"WASON -F10%",
+    "tipoProducto":{
+      "id":6,
+      "descripcion":"Antiparasitario"
+    },
+    "indicaciones":"Está indicado para Bovinos, Ovinos, Caprinos, Camélidos Sudamericanos y caninos. Es un antihermíntico de amplio espectro con acción vermicida, larvicida y ovicida, indicado para el tratamiento y prevención de parásitos contra nematodos gastrointestinales, pulmonares, cestodos (Taenia, Moniezia, etc.)",
+    "periodo_retiro_descripcion":"Carne: 14 días. Leche: 03 días",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/WASON -F10� 1.png",
+                  "../../../assets/img/productos/WASON -F10� 2.png",
+                  "../../../assets/img/productos/WASON -F10� 3.png",
+                  "../../../assets/img/productos/WASON -F10� 4.png",
+                  "../../../assets/img/productos/WASON -F10� 5.png",
+                  "../../../assets/img/productos/WASON -F10� 6.png",
+                  "../../../assets/img/productos/WASON -F10� 7.png",
+                  "../../../assets/img/productos/WASON -F10� 8.png"]
+  },
+  {
+    "id":12,
+    "name":"TERMINADOR C12%",
+    "tipoProducto":{
+      "id":5,
+      "descripcion":"Antiparasitario-oral"
+    },
+    "indicaciones":"Closantel es un fármaco perteneciente al grupo de las salicilanilidas, es el antiparasitario de más amplio espectro y ha demostrado tener eficacia sobre nemátodos, como haemonchus sp. chambertina sp. y fasciola hepática",
+    "periodo_retiro_descripcion":"Ovino: 42 días. Bovino: 56 días. Caprinos y camélidos sudamericanos: 65 días",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/TERMINADOR C12 1.png",
+                  "../../../assets/img/productos/TERMINADOR C12 2.png",
+                  "../../../assets/img/productos/TERMINADOR C12 3.png",
+                  "../../../assets/img/productos/TERMINADOR C12 4.png",
+                  "../../../assets/img/productos/TERMINADOR C12 5.png",
+                  "../../../assets/img/productos/TERMINADOR C12 6.png",
+                  "../../../assets/img/productos/TERMINADOR C12 7.png",
+                  "../../../assets/img/productos/TERMINADOR C12 8.png"]
+  },
+  {
+    "id":13,
+    "name":"ARROJADOR",
+    "tipoProducto":{
+      "id":5,
+      "descripcion":"Antiparasitario-oral"
+    },
+    "indicaciones":"Es eficaz contra los estadios evolutivos de Fasciola hepática por más de 6 semanas y sus formas inmaduras hasta 1 semana, teniendo efecto residual hasta por 11 semanas. Actúan contra nemátodos gastrointestinales y pulmonares. Cestodos como taenia, moniezia, etc. La adición de cobalto, cobre, selenio y vitamina B12 disminuye la anemia, aumenta las defensas y mejora el apetito.",
+    "periodo_retiro_descripcion":"Carne: 42 días. Leche: 07 días",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/ARROJADOR 1.png",
+                  "../../../assets/img/productos/ARROJADOR 2.png",
+                  "../../../assets/img/productos/ARROJADOR 3.png",
+                  "../../../assets/img/productos/ARROJADOR 4.png",
+                  "../../../assets/img/productos/ARROJADOR 5.png",
+                  "../../../assets/img/productos/ARROJADOR 6.png",
+                  "../../../assets/img/productos/ARROJADOR 7.png",
+                  "../../../assets/img/productos/ARROJADOR 8.png"]
+  },
+  {
+    "id":14,
+    "name":"SANITO 12.5%",
+    "tipoProducto":{
+      "id":5,
+      "descripcion":"Antiparasitario-oral"
+    },
+    "indicaciones":"SANITO 12.5% por ser una combinación de dos fármacos actua eficázmente en el tratamiento y control de los siguientes parásitos: Parásitos Internos: Nematodos gastrointestinales, parásitos pulmonares, parásitos renales de porcinos. Parásitos Externos: Estados larvarios de dipteros causante de miasis, piojos chupadores, acaros de la sarna, garrapatas, piojos masticadores, moscas de los cuernos, gusanos de la nariz.",
+    "periodo_retiro_descripcion":"Carne: 28 días. Leche: 07 días antes de ser destinado para el consumo humano.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/SANITO 12.5 1.png",
+                  "../../../assets/img/productos/SANITO 12.5 2.png",
+                  "../../../assets/img/productos/SANITO 12.5 3.png"]
+  },
+  {
+    "id":15,
+    "name":"CRIADOR",
+    "tipoProducto":{
+      "id":7,
+      "descripcion":"Sales minerales"
+    },
+    "indicaciones":"Esta indicado en bovinos, ovinos, caprinos, camélidos sudamericanos, porcinos, aves de producción, cuyes y conejos a fin de cubrir todas las necesidades y/o deficiencias de minerales y vitaminas. Administrar el producto por vía oral la cantidad necesaria para ser consumida en ese momento de preferencia en saleros con cobertizo.",
+    "periodo_retiro_descripcion":"Carne: 28 días. Leche: 07 días antes de ser destinado para el consumo humano.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/CRIADOR 1.png",
+                  "../../../assets/img/productos/CRIADOR 2.png",
+                  "../../../assets/img/productos/CRIADOR 3.png",
+                  "../../../assets/img/productos/CRIADOR 4.png"]
+  },
+  {
+    "id":16,
+    "name":"PANAFIN 5%",
+    "tipoProducto":{
+      "id":8,
+      "descripcion":"Antihelmetico"
+    },
+    "indicaciones":"PANAFIN 5% esta indicado en porcinos y aves teniendo como principio activo el Fenbendazole al 5%, que es un derivado de los benzimidazoles siendo un antiparasitario interno antihelmintico de Amplio espectro de acción vermicida, larvacida y ovicida para el control y tratamiento de parásitos en porcinos y aves.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PANAFIN.png"]
+  },
+  {
+    "id":17,
+    "name":"SARNAPEC",
+    "tipoProducto":{
+      "id":6,
+      "descripcion":"Antiparasitario"
+    },
+    "indicaciones":"Antiparasitario de amplio espectro, eficaz contra una gran variedad de nematodos y ectoparásitos. - Piojos Chupadores - ÁCAROS PORDUCTORES DE SARNA - Piojos masticadores - Nematodos Gastrointestinales - Gusanos Pulmonares",
+    "periodo_retiro_descripcion":"28 días",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/SARNAPEC 1.png",
+                  "../../../assets/img/productos/SARNAPEC 2.png",
+                  "../../../assets/img/productos/SARNAPEC 3.png",
+                  "../../../assets/img/productos/SARNAPEC 4.png",
+                  "../../../assets/img/productos/SARNAPEC 5.png"]
+  },
+  {
+    "id":18,
+    "name":"SANITO FULL",
+    "tipoProducto":{
+      "id":9,
+      "descripcion":"Pour on"
+    },
+    "indicaciones":"SANITO FULL POUR ON presenta acción antiparasitaria externa siendo eficaz contra los siguientes agentes etiológicos: Garrapatas: Boophilus microplus, Mosca de los cuernos: Haematobia irritans, Tupe o Nuche: Dermatobia hominis, Piojos masticadores: Damalinia bovis, Piojos chupadores: Linognathus vituli, Miasis o Gusaneras por Cochliomyia hominivorax. prevención de gusaneras causadas por Cochliomyia hominivorax.",
+    "periodo_retiro_descripcion":"Carne: 100 días antes del sacrificio del animal. Leche: No administrar en hembras productoras de leche destinada para el consumo humano.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/SANITO FULL 1.png",
+                  "../../../assets/img/productos/SANITO FULL 2.png",
+                  "../../../assets/img/productos/SANITO FULL 3.png",
+                  "../../../assets/img/productos/SANITO FULL 4.png",
+                  "../../../assets/img/productos/SANITO FULL 5.png"]
+  },
+  {
+    "id":19,
+    "name":"COLIPEC",
+    "tipoProducto":{
+      "id":10,
+      "descripcion":"Antibiotico"
+    },
+    "indicaciones":"Es un antibacteriano de amplio espectro que esta indicado para el tratamiento y control de enfermedades infecciosas causadas por gérmenes Gram positivos, Gram negativos y Mycoplasmas. Entre ellas, enterotoxemia, salmonelosis, neumonía, bronconeumonía, diarreas colibacilares, coriza, etc.",
+    "periodo_retiro_descripcion":"Carne: 15 días. Leche: No administrar en GALLINAS ponedoras.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/COLIPEC 1.png",
+                  "../../../assets/img/productos/COLIPEC 2.png",
+                  "../../../assets/img/productos/COLIPEC 3.png",
+                  "../../../assets/img/productos/COLIPEC 4.png",
+                  "../../../assets/img/productos/COLIPEC 5.png"]
+  },
+  {
+    "id":20,
+    "name":"YODOPEC",
+    "tipoProducto":{
+      "id":11,
+      "descripcion":"Antiséptico-desinfectante"
+    },
+    "indicaciones":"YODOPEC, tiene acción antiséptica y desinfectante frente heridas, úlceras, quemaduras, infecciones cutaneas por hongos y bacterias. * Preparación de la piel previa a procedi - mientos invasivos. *Prevención de infecciones causadas por tricofitosis, micosis, actinobasilosis en bovinos.",
+    "precauciones": "No administrar por via oral. Evite el contacto con los ojos.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/YODOPEC 1.png",
+                  "../../../assets/img/productos/YODOPEC 2.png",
+                  "../../../assets/img/productos/YODOPEC 3.png",
+                  "../../../assets/img/productos/YODOPEC 4.png"]
+  },
+  {
+    "id":21,
+    "name":"DOLOKIT",
+    "tipoProducto":{
+      "id":12,
+      "descripcion":"Embrocación"
+    },
+    "indicaciones":"Es un unguento antiflamatorio para uso externo que actúa tópicamente a nivel de músculos, tendones, articulacines menores y afecciones como contusiones, cojeras, luxaciones y dolores musculares.",
+    "periodo_retiro_descripcion":"No corresponde, porque está indicado solo para equinos.",
+    "precauciones":"No aplicar en heridas abiertas.",
+    "administracion":"",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/DOLOKIT 1.png",
+                  "../../../assets/img/productos/DOLOKIT 2.png",
+                  "../../../assets/img/productos/DOLOKIT 3.png"]
+  },
+  {
+    "id":22,
+    "name":"ACEITE MINERAL",
+    "tipoProducto":{
+      "id":13,
+      "descripcion":"Laxante"
+    },
+    "indicaciones":"El aceite mineral ingerido puro, actúa como laxante ecaz y lubrica la mucosa intestinal, facilitando la eliminación de las heces y se administra por vía oral.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"Guardar en ambiente fresco en envases herméticamente cerrados.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/ACEITE MINERAL 1.png",
+                  "../../../assets/img/productos/ACEITE MINERAL 2.png",
+                  "../../../assets/img/productos/ACEITE MINERAL 3.png"]
+  },
+  {
+    "id":23,
+    "name":"CREOLINA MAGISTRAL",
+    "tipoProducto":{
+      "id":15,
+      "descripcion":"Full Line"
+    },
+    "indicaciones":"Es un desinfectante concentrado y biodegradable que elimina gérmenes, bacterias, hongos y parásitos. Repelente y combate moscas, cucarachas, pulgas, piojos, garrapatas, hormigas, arañas, etc. Es un líquido de color marrón oscuro con olor característico, astringente y penetrante, soluble en el agua al 100%.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "formas_uso":"Se usa como desinfectante y fungicida, para eliminar hongos en pisos húmedos, patios, baños, depósitos y en áreas húmedas del campo y la ciudad. Para trabajos de limpieza en aguas estancadas, lugares con excesiva contaminación o para suprimir insectos.",
+    "almacenamiento":"Guardar en ambiente fresco, en envases herméticamente cerrados.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/CREOLINA 1.png",
+                  "../../../assets/img/productos/CREOLINA 2.png",
+                  "../../../assets/img/productos/CREOLINA 3.png",
+                  "../../../assets/img/productos/CREOLINA 4.png"]
+  },
+  {
+    "id":24,
+    "name":"KRESO FENOL",
+    "tipoProducto":{
+      "id":16,
+      "descripcion":"Kreso"
+    },
+    "indicaciones":"Es un desinfectante que actua en presencia de materia orgánica, el grupo funcional fenólico se halla reforzado por radicales metílicos, en posiciones orto, meta y para lo cual lo confiere a nuestro producto sus excepcionales propiedades. Es un verdadero devorador de microbios.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "formas_uso":"Se usa para la desinfección de paredes, pisos y superficies en general donde tipicamente proliferan las bacterias, hongos, etc. Por su alto pdoer germicida es muy practico tanto para erradicar malos olores producidos por la contaminación.",
+    "almacenamiento":"Guardar en ambiente fresco, en envases herméticamente cerrados.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/KRESO 1.png",
+                  "../../../assets/img/productos/KRESO 2.png",
+                  "../../../assets/img/productos/KRESO 3.png",
+                  "../../../assets/img/productos/KRESO 4.png",
+                  "../../../assets/img/productos/KRESO 5.png"]
+  },
+  {
+    "id":25,
+    "name":"KRESO INKA",
+    "tipoProducto":{
+      "id":17,
+      "descripcion":"Desinfectante"
+    },
+    "indicaciones":"Desinfectante de todo tipo de superficies, como baños, pisos, paredes, corrales, etc. Por su olor característico, también actua como poderoso eliminador de malos olores.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "formas_uso":"Diluir previamente en una proporción de 1 Litro de KRESO INKA en 30 litros de agua, luego agitar hasta obtener una solución lechosa.",
+    "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/KRESO INKA 1.png",
+                  "../../../assets/img/productos/KRESO INKA 2.png",
+                  "../../../assets/img/productos/KRESO INKA 3.png",
+                  "../../../assets/img/productos/KRESO INKA 4.png"]
+  },
+  {
+    "id":26,
+    "name":"PATRON 20-20-20",
+    "tipoProducto":{
+      "id":14,
+      "descripcion":"Abono foliar"
+    },
+    "indicaciones":"Es un fertilizante líquido que está formulado con elementos balanceados como Nitrógeno, Fosforo, Potasio y Aminoácidos, totalmente quelatizados para la absorción fácilmente de la planta. Los aminoácidos hacen un producto de alta estimulación con los procesos metaboliticos de las plantas fortaleciéndolas al corregir carencias y proporcionándolas nutrientes necesarios totalmente asimilables por las hojas, tallos y raíces aprovechando la planta íntegramente garantizando cultivo de mejor calidad en las cosechas. Los micro elementos contienen en forma quilatados hormonas de crecimiento y cautivantes que mejoran la absorción de todo los nutrientes haciendo que la planta asimile más rápido a través de las hojas, se recomienda su aplicación en todas las fases de los cultivos. Es compatible con todos los productos fitosanitarios comúnmente utilizados, pero no es recomendable con productos altamente alcalinos y con aceites minerales, se recomienda antes de la mezcla hacer una pequeña prueba de compatibilidad del producto.",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PATRON 20-20-20.png"]
+  },
+  {
+    "id":27,
+    "name":"PATRON - NITRÓGENO 32-12-10",
+    "tipoProducto":{
+      "id":14,
+      "descripcion":"Abono foliar"
+    },
+    "indicaciones":"Es un fertilizante líquido (viscoso) que está formulado con mayor aporte de nitrógeno y enriquecidos con aminoácidos y fitohormonas lo que hacen un producto de alta asimilación de las plantas, fortaleciendo los nutrientes necesarios totalmente asimilables por las hojas, tallos y raíces aprovechando la planta íntegramente. Mejora los cultivos en crecimiento y desarrollo de la elaboración de proteínas la acción fotosentica de la planta. Los micro elementos contiene en forma quelatos y enriquecidos con aminoácidos y fitohormonas de crecimiento que ayudan y mejoran la absorción de todos los nutrientes y rápida asimilación a través de las hojas, se puede utilizar en periodo críticos (heladas, sequías) recomendándose su aplicación en todas las fases de inicio y crecimiento de los cultivos.Es compatible con todos los fitosanitarios comúnmente utilizados, no es miscible con productos altamente alcalinos y con aceites minerales, se recomienda antes de la mezcla una prueba de compatibilidad. Contiene baja toxicidad; sin embargo, se debe guardar las precauciones del manejo de pesticidas en general. No almacenar junto con los alimentos, bebidas ni medicinas. Evitar contacto con la piel, ojos, si en caso ocurre esto lavarse con abundante agua y jabón. Y mantener fuera del alcance de los niños.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 32-12-10.png"]
+  },
+  {
+    "id":28,
+    "name":"PATRON - FOSFORO 12-40-10",
+    "tipoProducto":{
+      "id":14,
+      "descripcion":"Abono foliar"
+    },
+    "indicaciones":"Es un fertilizante líquido es suspensión altamente concentrado de los nutrientes enriquecidos con aminoácidos y fitohormonas, teniendo al fosforo en alta concentración; lo que hace un producto de alta estimulación del proceso metabólico de las plantas fortaleciéndolas al corregir carencias, proporcionando nutrientes necesarios totalmente asimilables por las hojas, tallos y raíces de las plantas. Presenta una adecuada concentración de nutrientes de macro y micro elementos quelatizados, enriquecidos con aminoácidos y fitohormonas para estimular el desarrollo de la planta. Y crecimiento de todo el sistema radicular incrementando la capacidad de las plantas en una mejor absorción y asimilación de nutrientes. El fosforo previene y corrige deficiencia nutricionales en transplantes y plantas jóvenes, en esencial durante el periodo de crecimiento radicular que ayuda a la formación de flores y frutos. Es compatible con todos los productos fitosanitarios comúnmente utilizados, pero no es recomendable con productos altamente alcalinos y con aceites minerales, se recomienda antes de la mezcla hacer una pequeña prueba de compatibilidad del producto.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PATRON FOSFORO.png"]
+  },
+  {
+    "id":29,
+    "name":"PATRON - POTASIO",
+    "tipoProducto":{
+      "id":14,
+      "descripcion":"Abono foliar"
+    },
+    "indicaciones":"Bionutrientes líquido con una formula especial, con alta concentración de potasio soluble en agua, enriquecido con algas marinas y vitaminas lo que hace un producto de alta estimulación de los procesos metabólicos de las plantas fortaleciéndolas al corregir y prevenir carencias de potasio, proporcionado nutrientes necesarios totalmente asimilables por las plantas favoreciendo la maduración de los frutos en las fases finales del cultivo. Presenta una adecuada concentración de macro y micro elementos teniendo al potasio como elemento mineral principal, manteniendo un adecuado equilibrio nutritivo activando y promoviendo el desarrollo y crecimiento uniforme de los frutos estimulando el color y llenado como también mejorando tamaño, peso, firmeza y calibre, es un producto excepcional para completar el aporte de nutrientes principales den suelos pobres. PATRON POTASIO, es compatible con todos los productos fitosanitarios comúnmente no es miscible con productos altamente alcalinos y con aceites minerales, se recomienda antes de la mezcla realizar una prueba de compatibilidad.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PATRON POTASIO.png"]
+  },
+  {
+    "id":30,
+    "name":"PATRON - NITRÓGENO 50-12-10",
+    "tipoProducto":{
+      "id":14,
+      "descripcion":"Abono foliar"
+    },
+    "indicaciones":"Es un fertilizante líquido (viscoso) que está formulado con mayor aporte de nitrógeno y enriquecidos con aminoácidos y fitohormonas lo que hacen un producto de alta asimilación de las plantas, fortaleciendo los nutrientes necesarios totalmente asimilables por las hojas, tallos y raíces aprovechando la planta íntegramente. Mejora los cultivos en crecimiento y desarrollo de la elaboración de proteínas la acción fotosentica de la planta. Los micro elementos contiene en forma quelatos y enriquecidos con aminoácidos y fitohormonas de crecimiento que ayudan y mejoran la absorción de todos los nutrientes y rápida asimilación a través de las hojas, se puede utilizar en periodo críticos(heladas, sequías) recomendándose su aplicación en todas las fases de inicio y crecimiento de los cultivos. Es compatible con todos los fitosanitarios comúnmente utilizados, no es miscible con productos altamente alcalinos y con aceites minerales, se recomienda antes de la mezcla una prueba de compatibilidad.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 50-12-10.png"]
+  },
+  {
+    "id":31,
+    "name":"CHACAL 20-20-20",
+    "tipoProducto":{
+      "id":14,
+      "descripcion":"Abono foliar"
+    },
+    "indicaciones":"Es un fertilizante líquido que está formulado con elementos balanceados como Nitrógeno, Fosforo, Potasio y Aminoácidos, totalmente quelatizados para la absorción fácilmente de la planta. Es un fertilizante líquido que está formulado con elementos balanceados como Nitrógeno, Fosforo, Potasio y Aminoácidos, totalmente quelatizados para la absorción fácilmente de la planta. Los micro elementos contienen en forma quilatados hormonas de crecimiento y cautivantes que mejoran la absorción de todo los nutrientes haciendo que la planta asimile más rápido a través de las hojas, se recomienda su aplicación en todas las fases de los cultivos. Es compatible con todos los productos fitosanitarios comúnmente utilizados, pero no es recomendable con productos altamente alcalinos y con aceites minerales, se recomienda antes de la mezcla hacer una pequeña prueba de compatibilidad del producto.",
+    "periodo_retiro_descripcion":"",
+    "administracion":"",
+    "almacenamiento":"",
+    "contra_indicaciones":false,
+    "periodo_retiro":false,
+    "imagen_url":["../../../assets/img/productos/CHACAL.png"]
+  }
+]
