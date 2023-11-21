@@ -2,7 +2,8 @@
   width: 20vw;
 }
 .example-card {
-  max-width: 200px;
+  width: 18vw;
+  max-width: 400px;
 }
 
 .example-header-image {
@@ -14,6 +15,16 @@
 }
 .my-pagination ::ng-deep .ngx-pagination .current {
   background: #2196F3;
+}
+mat-card-header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mat-mdc-card-header-text{
+  width: 100%;
 }
 mat-form-field{
   min-width: 300px;

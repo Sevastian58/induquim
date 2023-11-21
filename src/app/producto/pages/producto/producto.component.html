@@ -48,7 +48,7 @@
     <div id="lista-productos" class="d-flex flex-wrap justify-content-center align-items-center">
       <mat-card class="example-card m-3" *ngFor="let item of listProductos | paginate: { itemsPerPage: 8, currentPage: pages }">
         <mat-card-header>
-          <mat-card-title>{{item.name}}</mat-card-title>
+          <mat-card-title class="text-center">{{item.name}}</mat-card-title>
           <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
         </mat-card-header>
 

@@ -15,6 +15,11 @@ export class MainComponent {
 
   backgroundImage:string="url('../../../assets/img/animales/perrito.png')";
   listaProductos:Producto[]=[];
+
+  listaProductos1:Producto[]=[];
+  listaProductos2:Producto[]=[];
+  listaProductos3:Producto[]=[];
+
   listaProductosReverso:Producto[]=[]
   listaProductosLimit:Producto[]=[];
   listaTipoProductos:TipoProducto[]=[]
@@ -44,6 +49,7 @@ export class MainComponent {
         this.listaProductos=response;
         this.limitarListaProductos();
         this.invertirListaProductos(this.listaProductos)
+        this.listarProductosMain();
         console.log(response)
       }
     })
@@ -107,6 +113,28 @@ export class MainComponent {
       this.listaProductosReverso.push(productos[i])
     }
   }
+
+  listarProductosMain(){
+    console.log("estoy en el productos main")
+    this.listaProductos.forEach(p=>{
+      console.log("estoy en el productos main-foreach")
+      if(p.id==1 || p.id==3 || p.id==5){
+        this.listaProductos1.push(p)
+        console.log("lista productos 1", this.listaProductos1.length)
+      }
+
+      if(p.id==2 || p.id==4 || p.id==10){
+        this.listaProductos2.push(p)
+        console.log("lista productos 2", this.listaProductos2.length)
+      }
+
+      if(p.id==14 || p.id==17 || p.id==21){
+        this.listaProductos3.push(p)
+        console.log("lista productos 3", this.listaProductos3.length)
+      }
+    })
+  }
+
 
 
 }

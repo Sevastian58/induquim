@@ -34,6 +34,7 @@
   width: 20vw;
 }
 .example-card {
+  width: 500px;
   max-width: 200px;
 }
 
@@ -42,7 +43,7 @@
   background-size: cover;
 }
 .content-img{
-  width: 190px;
+  width: 70px;
 }
 .main-descripcion-oferta-item{
   background-color: rgb(97, 97, 200);
@@ -101,4 +102,20 @@ h4{
   height: 400px;
   box-shadow: -5px 14px 10px rgb(119, 113, 113);
 }
+.contenedor{
+  min-height: 60vh;
+  width: 90vw;
+}
+#contenedor1{
+background-color: #6166fb;
+}
+#contenedor2{
+  background-color: #605f5f;
 
+}
+#contenedor3{
+  background-color: #fb6178;
+}
+#carouselExampleIndicators{
+  margin-bottom: 10%;
+}

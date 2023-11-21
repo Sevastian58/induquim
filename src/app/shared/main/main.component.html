@@ -81,6 +81,78 @@
       </button>
     </div>
 
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="contenedor d-flex flex-wrap justify-content-center align-items-center" id="contenedor1">
+            <mat-card class="example-card m-3" *ngFor="let item of listaProductos1">
+              <mat-card-header>
+                <mat-card-title class="text-center">{{item.name}}</mat-card-title>
+                <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
+              </mat-card-header>
+
+              <mat-card-content class="d-flex flex-row justify-content-center">
+                <img class="content-img" mat-card-image src="{{item.imagen_url[0]}}" alt="Photo of {{item.name}}">
+              </mat-card-content>
+              <mat-card-actions class="d-flex flex-row justify-content-center">
+                <a mat-raised-button color="accent" [routerLink]="['/producto/detalle', item.id]">Ver más</a>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="contenedor d-flex flex-wrap justify-content-center align-items-center" id="contenedor2">
+            <mat-card class="example-card m-3" *ngFor="let item of listaProductos2">
+              <mat-card-header>
+                <mat-card-title class="text-center">{{item.name}}</mat-card-title>
+                <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
+              </mat-card-header>
+
+              <mat-card-content class="d-flex flex-row justify-content-center">
+                <img class="content-img" mat-card-image src="{{item.imagen_url[0]}}" alt="Photo of {{item.name}}">
+              </mat-card-content>
+              <mat-card-actions class="d-flex flex-row justify-content-center">
+                <a mat-raised-button color="accent" [routerLink]="['/producto/detalle', item.id]">Ver más</a>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="contenedor d-flex flex-wrap justify-content-center align-items-center" id="contenedor3">
+            <mat-card class="example-card m-3" *ngFor="let item of listaProductos3">
+              <mat-card-header>
+                <mat-card-title class="text-center">{{item.name}}</mat-card-title>
+                <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
+              </mat-card-header>
+
+              <mat-card-content class="d-flex flex-row justify-content-center">
+                <img class="content-img" mat-card-image src="{{item.imagen_url[0]}}" alt="Photo of {{item.name}}">
+              </mat-card-content>
+              <mat-card-actions class="d-flex flex-row justify-content-center">
+                <a mat-raised-button color="accent" [routerLink]="['/producto/detalle', item.id]">Ver más</a>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
     <!--CAROUSEL-->
 
     <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">

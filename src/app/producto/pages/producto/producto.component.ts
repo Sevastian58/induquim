@@ -29,6 +29,7 @@ export class ProductoComponent {
   constructor(private tipoProductoService:TipoProductoService,
               private productoService:ProductoService, private _route:ActivatedRoute){
 
+
   }
 
 
@@ -36,12 +37,16 @@ export class ProductoComponent {
    this.listarTipoProducto();
    this.listarProductos();
 
-    //recibimos el parametro
+   setTimeout(()=>{
     let id = this._route.snapshot.paramMap.get("tipoId");
     if(id!=null){
       this.selectedTipoProducto= parseInt(id);
       this.filtrar();
     }
+   }, 300);
+
+  }
+  ngAfterViewInit() {
 
   }
 
