@@ -75,7 +75,7 @@ h4{
 }
 .producto-item-img-fondo img{
   height: 85vh;
-  min-width: 370px;
+  min-width: 270px;
 }
 .producto-item-texto{
   padding: 5vw;
@@ -93,7 +93,7 @@ h4{
 }
 .producto-item-img-fondo2 img{
   height: 85vh;
-  min-width: 370px;
+  min-width: 270px;
 }
 .producto-item-texto2{
   padding: 5vw;
