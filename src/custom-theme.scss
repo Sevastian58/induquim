@@ -13,13 +13,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $Induquim-primary: mat.define-palette(mat.$blue-palette);
-$Induquim-accent: mat.define-palette((
-  500: #D52626,
-  // Puedes ajustar los tonos según tus preferencias
-  A200: #D52626,
-  A100: #FF8A80,
-  A400: #D52626,
-), A200, A100, A400); // Se especifican tonos más claros y más oscuros
+$Induquim-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $Induquim-warn: mat.define-palette(mat.$red-palette);

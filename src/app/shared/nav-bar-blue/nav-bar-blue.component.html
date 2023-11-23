@@ -1,0 +1,92 @@
+<div *ngIf="windowWidth<970">
+  <mat-sidenav #sidenav mode="push" [ngStyle]="{ width:'200px'}">
+    <mat-toolbar color="primary">
+      <span>Menu</span>
+      <span class="spacer"></span>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+    <mat-nav-list>
+      <!--<mat-list-item   *ngFor="let item of sidebarItems"
+        [routerLink]="item.url">
+        <mat-icon>{{item.icon}}</mat-icon>
+        {{item.label}}
+      </mat-list-item>-->
+
+      <mat-list-item routerLink="/cita">
+        Inicio
+      </mat-list-item>
+      <mat-list-item [routerLink]="['/producto']">
+        Productos
+      </mat-list-item>
+      <mat-list-item [routerLink]="['/about']">
+        Nosotros
+      </mat-list-item>
+      <mat-list-item [routerLink]="['/contact']">
+        Contacto
+      </mat-list-item>
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Aqui va el icono</span>
+  </mat-toolbar>
+</div>
+
+
+<div *ngIf="windowWidth>=970">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div id="nav-bar-big">
+
+    <!-- Collapsible wrapper -->
+    <div class="d-flex flex-row justify-content-between" [style.width]="navBarLeftWidth" id="nav-bar-content">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">
+        <img
+          src="../../../assets/img/logo.png"
+          height="15"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav  d-flex flex-row justify-content-around align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" [routerLink]="['/producto']" routerLinkActive="router-link-active">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"  [routerLink]="['/about']">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" [routerLink]="['/contact']">Contacto</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+</div>

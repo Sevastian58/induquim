@@ -5,12 +5,14 @@
   width: 40vw;
   text-decoration: none;
   color: white;
+  min-width: 400px;
 }
 #producto-img>img{
   width: 14vw;
 }
 #producto-descripcion{
   width: 40vw;
+  min-width: 400px;
 }
 #producto-img-button{
   width: 100%;
@@ -25,7 +27,8 @@
   width: 49%;
 }
 #producto-img-lista{
-  width: inherit;
+  width: 100%;
+  overflow-x: scroll;
 }
 .producto-img-lista-item{
   width: 4vw;
@@ -34,6 +37,7 @@
 #producto-img-main{
   margin-top: 5%;
   max-height: 450px;
+  min-width: 180px;
   height: 60vh;
   width: auto;
 }
@@ -47,4 +51,12 @@
   border-radius: 10px  0 0 10px;
   padding: 0.7rem;
 }
-
+#contenedor{
+  margin-top: 12vh;
+}
+#producto-imagenes{
+  margin-bottom: 1rem;
+}
+#producto-imagenes>img{
+  width: 33.3%;
+}

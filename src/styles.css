@@ -5,3 +5,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .btn-primary{
   background-color: #24aff4!important;
 }
+.red{
+  background-color: #D52626!important;
+}
+.celeste{
+  background-color: #24aff4!important;
+}

@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { NavBarBlueComponent } from './nav-bar-blue/nav-bar-blue.component';
 
 
 
@@ -14,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     NavBarComponent,
+    NavBarBlueComponent,
     BannerComponent,
     MainComponent,
     FooterComponent
@@ -27,7 +29,8 @@ import { FooterComponent } from './footer/footer.component';
     NavBarComponent,
     BannerComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    NavBarBlueComponent
   ]
 })
 export class SharedModule { }
