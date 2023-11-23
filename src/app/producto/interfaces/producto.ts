@@ -10,7 +10,8 @@ export interface Producto{
   almacenamiento:string,
   contra_indicaciones:boolean,
   periodo_retiro:boolean,
-  imagen_url:string[]
+  imagen_url:string[],
+  color:string
 }
 
 

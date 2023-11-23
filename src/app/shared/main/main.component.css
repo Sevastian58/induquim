@@ -1,3 +1,11 @@
+h1{
+  background-color: #8f8f91;
+  width: 100%;
+}
+#main{
+  width: 80%;
+  margin-left: 10%;
+}
 .main-descripcion{
   width: 90vw;
   height: 70vh;
@@ -46,58 +54,65 @@
   width: 70px;
 }
 .main-descripcion-oferta-item{
-  background-color: rgb(97, 97, 200);
-  width: 300px;
-  height: 300px;
-  margin: 0.1rem;
+  background-color: #24aff4;
+  width: 280px;
+  height: 280px;
+  margin: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10%;
+}
+.other-color{
+  background-color:#b3e6ff ;
 }
 h4{
   color: white;
 }
 
 .producto-item{
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
 }
-.last-item{
+/*.last-item{
   margin-bottom: 25vh!important;
-}
+}*/
 
 .producto-item-img-fondo{
-  background-image: linear-gradient(34deg,rgb(61, 121, 194) 0%,#fb6178 100%);
-  width: 50vw;
+  /*background-image: linear-gradient(34deg,rgb(61, 121, 194) 0%,#fb6178 100%);*/
+  background-color: #b3e6ff;
+  width: 50%;
   height: 400px;
   min-width: 370px;
 }
 .producto-item-img-fondo img{
-  height: 85vh;
+  height: 45vh;
+  width: auto;
   min-width: 270px;
 }
 .producto-item-texto{
   padding: 5vw;
-  width: 30vw;
+  width: 50%;
   min-width: 370px;
   height: 400px;
   box-shadow: 6px 20px 10px rgb(119, 113, 113);
 }
 
 .producto-item-img-fondo2{
-  background-image: linear-gradient(34deg,#fb6178 0%,rgb(61, 121, 194)  100%);
-  width: 50vw;
+  /*background-image: linear-gradient(34deg,#fb6178 0%,rgb(61, 121, 194)  100%);*/
+  background-color: #b3e6ff;
+  width: 50%;
   height: 400px;
   min-width: 370px;
 }
 .producto-item-img-fondo2 img{
-  height: 85vh;
+  height: 45vh;
   min-width: 270px;
 }
 .producto-item-texto2{
   padding: 5vw;
-  width: 30vw;
+  width: 50%;
   min-width: 370px;
   height: 400px;
   box-shadow: -5px 14px 10px rgb(119, 113, 113);
@@ -107,15 +122,25 @@ h4{
   width: 90vw;
 }
 #contenedor1{
-background-color: #6166fb;
+background-color: #8f8f91;
 }
 #contenedor2{
-  background-color: #605f5f;
+  background-color: #8f8f91;
 
 }
 #contenedor3{
-  background-color: #fb6178;
+  background-color: #8f8f91;
 }
+/*#carouselExampleInterval2{
+  height: 400px;
+}*/
 #carouselExampleIndicators{
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+#all-products{
+  width: 80%;
+  margin-left: 10%;
+}
+#lista-productos{
+  width: 100%;
 }

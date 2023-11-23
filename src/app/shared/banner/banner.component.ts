@@ -25,38 +25,53 @@ export class BannerComponent {
 
     const bannerElement:HTMLElement=this.elRef.nativeElement.querySelector('#banner');
     const bannerTexto: HTMLElement = this.elRef.nativeElement.querySelector('#banner-texto');
+    const bannerDescripcion:HTMLElement = this.elRef.nativeElement.querySelector("#banner-descripcion");
     //verificamos que exista el elemento
 
     if(bannerElement){
       if(this.windowWidth<=1200){
-        bannerElement.style.backgroundSize="contain";
-        if(this.windowWidth<1100){
+        //bannerElement.style.backgroundSize="contain";
+       /* if(this.windowWidth<1100){
           bannerElement.style.height="70vh";
-          bannerTexto.style.display="block";
+          //bannerTexto.style.display="block";
+          bannerDescripcion.style.height="70vh";
+         // bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<1000){
           bannerElement.style.height="55vh";
-          bannerTexto.style.display="block";
+          //bannerTexto.style.display="block";
+          bannerDescripcion.style.height="55vh";
+          //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<900){
           bannerElement.style.height="50vh";
-          bannerTexto.style.display="none";
+          //bannerTexto.style.display="none";
+          bannerDescripcion.style.height="50vh";
+          //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<730){
           bannerElement.style.height="30vh";
+          bannerDescripcion.style.height="70vh";
+          //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<530){
           bannerElement.style.height="20vh";
+          bannerDescripcion.style.height="20vh";
+          //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<400){
           bannerElement.style.height="14vh";
-        }
+          bannerDescripcion.style.height="14vh";
+          //bannerDescripcion.style.width=this.windowWidth + "px";
+        }*/
 
       }
       else{
         bannerElement.style.backgroundSize="cover";
         bannerElement.style.height="80vh";
-        bannerTexto.style.display="block";
+        bannerDescripcion.style.height="80vh";
+        //bannerTexto.style.display="block";
+        //bannerDescripcion.style.width=this.windowWidth + "px";
       }
     }
     //alert(this.windowWidth)
@@ -72,24 +87,11 @@ export class BannerComponent {
 
     if (bannerElement) {
       bannerElement.style.transition="all 2s ease"
-      bannerElement.style.backgroundImage = "url('../../../assets/img/banner" + this.i + ".png')";
-
-      if(this.i==1){
-        const desBannerH1Element: HTMLElement = this.elRef.nativeElement.querySelector('#banner-descripcion h1');
-        const desBannerElement: HTMLElement = this.elRef.nativeElement.querySelector('#banner-descripcion');
-        desBannerH1Element.style.color="black"
-        desBannerElement.style.color="black"
-      }
-      else if(this.i==2){
-        const desBannerH1Element: HTMLElement = this.elRef.nativeElement.querySelector('#banner-descripcion h1');
-        const desBannerElement: HTMLElement = this.elRef.nativeElement.querySelector('#banner-descripcion');
-        desBannerH1Element.style.color="white"
-        desBannerElement.style.color="white"
-      }
+      bannerElement.style.backgroundImage = "url('../../../assets/img/banner" + this.i + ".jpg')";
 
     }
 
-    if (this.i == 1) {
+    if (this.i < 4) {
       this.i++;
     } else {
       this.i = 1;

@@ -12,6 +12,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#1FBC60",
     "imagen_url":["../../../assets/img/productos/TONICON 1.png",
                   "../../../assets/img/productos/TONICON 2.png",
                   "../../../assets/img/productos/TONICON 3.png",
@@ -30,6 +31,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#63CCBA",
     "imagen_url":["../../../assets/img/productos/ROBUSTO 1.png",
                   "../../../assets/img/productos/ROBUSTO 2.png",
                   "../../../assets/img/productos/ROBUSTO 3.png",
@@ -48,6 +50,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#783DAB",
     "imagen_url":["../../../assets/img/productos/KALMITA 1.png",
                 "../../../assets/img/productos/KALMITA 2.png",
                 "../../../assets/img/productos/KALMITA 3.png",
@@ -66,6 +69,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D15A06",
     "imagen_url":["../../../assets/img/productos/WAIKI 1.png",
                   "../../../assets/img/productos/WAIKI 2.png",
                   "../../../assets/img/productos/WAIKI 3.png",
@@ -84,6 +88,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#EFAE26",
     "imagen_url":["../../../assets/img/productos/SANITO 1.png",
                   "../../../assets/img/productos/SANITO 2.png",
                   "../../../assets/img/productos/SANITO 3.png",
@@ -106,6 +111,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#7ACC73",
     "imagen_url":["../../../assets/img/productos/PARACUYES 1.png",
                   "../../../assets/img/productos/PARACUYES 2.png",
                   "../../../assets/img/productos/PARACUYES 3.png",
@@ -124,6 +130,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#97D86E",
     "imagen_url":["../../../assets/img/productos/WASON A15� 1.png",
                   "../../../assets/img/productos/WASON A15� 2.png",
                   "../../../assets/img/productos/WASON A15� 3.png",
@@ -146,6 +153,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#988CD5",
     "imagen_url":["../../../assets/img/productos/WASON T15� 1.png",
                   "../../../assets/img/productos/WASON T15� 2.png",
                   "../../../assets/img/productos/WASON T15� 3.png",
@@ -168,6 +176,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#0C3D97",
     "imagen_url":["../../../assets/img/productos/WASON 22� 1.png",
                   "../../../assets/img/productos/WASON 22� 2.png",
                   "../../../assets/img/productos/WASON 22� 3.png",
@@ -190,6 +199,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#FFE544",
     "imagen_url":["../../../assets/img/productos/WASON R24� 1.png",
                   "../../../assets/img/productos/WASON R24� 2.png",
                   "../../../assets/img/productos/WASON R24� 3.png",
@@ -212,6 +222,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#6DCEEE",
     "imagen_url":["../../../assets/img/productos/WASON -F10� 1.png",
                   "../../../assets/img/productos/WASON -F10� 2.png",
                   "../../../assets/img/productos/WASON -F10� 3.png",
@@ -234,6 +245,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D12D00",
     "imagen_url":["../../../assets/img/productos/TERMINADOR C12 1.png",
                   "../../../assets/img/productos/TERMINADOR C12 2.png",
                   "../../../assets/img/productos/TERMINADOR C12 3.png",
@@ -256,6 +268,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#1C4A94",
     "imagen_url":["../../../assets/img/productos/ARROJADOR 1.png",
                   "../../../assets/img/productos/ARROJADOR 2.png",
                   "../../../assets/img/productos/ARROJADOR 3.png",
@@ -278,6 +291,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#EFB24A",
     "imagen_url":["../../../assets/img/productos/SANITO 12.5 1.png",
                   "../../../assets/img/productos/SANITO 12.5 2.png",
                   "../../../assets/img/productos/SANITO 12.5 3.png"]
@@ -295,6 +309,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D52626",
     "imagen_url":["../../../assets/img/productos/CRIADOR 1.png",
                   "../../../assets/img/productos/CRIADOR 2.png",
                   "../../../assets/img/productos/CRIADOR 3.png",
@@ -313,6 +328,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#85178D",
     "imagen_url":["../../../assets/img/productos/PANAFIN.png"]
   },
   {
@@ -328,6 +344,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#E82713",
     "imagen_url":["../../../assets/img/productos/SARNAPEC 1.png",
                   "../../../assets/img/productos/SARNAPEC 2.png",
                   "../../../assets/img/productos/SARNAPEC 3.png",
@@ -347,6 +364,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#13B9B1",
     "imagen_url":["../../../assets/img/productos/SANITO FULL 1.png",
                   "../../../assets/img/productos/SANITO FULL 2.png",
                   "../../../assets/img/productos/SANITO FULL 3.png",
@@ -366,6 +384,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#A0D31B",
     "imagen_url":["../../../assets/img/productos/COLIPEC 1.png",
                   "../../../assets/img/productos/COLIPEC 2.png",
                   "../../../assets/img/productos/COLIPEC 3.png",
@@ -386,6 +405,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D81E1E",
     "imagen_url":["../../../assets/img/productos/YODOPEC 1.png",
                   "../../../assets/img/productos/YODOPEC 2.png",
                   "../../../assets/img/productos/YODOPEC 3.png",
@@ -405,6 +425,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#73BA4C",
     "imagen_url":["../../../assets/img/productos/DOLOKIT 1.png",
                   "../../../assets/img/productos/DOLOKIT 2.png",
                   "../../../assets/img/productos/DOLOKIT 3.png"]
@@ -422,6 +443,7 @@
     "almacenamiento":"Guardar en ambiente fresco en envases herméticamente cerrados.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#69AF43",
     "imagen_url":["../../../assets/img/productos/ACEITE MINERAL 1.png",
                   "../../../assets/img/productos/ACEITE MINERAL 2.png",
                   "../../../assets/img/productos/ACEITE MINERAL 3.png"]
@@ -440,6 +462,7 @@
     "almacenamiento":"Guardar en ambiente fresco, en envases herméticamente cerrados.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#48A539",
     "imagen_url":["../../../assets/img/productos/CREOLINA 1.png",
                   "../../../assets/img/productos/CREOLINA 2.png",
                   "../../../assets/img/productos/CREOLINA 3.png",
@@ -459,6 +482,7 @@
     "almacenamiento":"Guardar en ambiente fresco, en envases herméticamente cerrados.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/KRESO 1.png",
                   "../../../assets/img/productos/KRESO 2.png",
                   "../../../assets/img/productos/KRESO 3.png",
@@ -479,6 +503,7 @@
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/KRESO INKA 1.png",
                   "../../../assets/img/productos/KRESO INKA 2.png",
                   "../../../assets/img/productos/KRESO INKA 3.png",
@@ -496,6 +521,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/PATRON 20-20-20.png"]
   },
   {
@@ -511,6 +537,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 32-12-10.png"]
   },
   {
@@ -526,6 +553,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/PATRON FOSFORO.png"]
   },
   {
@@ -541,6 +569,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/PATRON POTASIO.png"]
   },
   {
@@ -556,6 +585,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 50-12-10.png"]
   },
   {
@@ -571,6 +601,7 @@
     "almacenamiento":"",
     "contra_indicaciones":false,
     "periodo_retiro":false,
+    "color":"#D82323",
     "imagen_url":["../../../assets/img/productos/CHACAL.png"]
   }
 ]

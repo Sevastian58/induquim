@@ -1,12 +1,12 @@
-<div class="d-flex flex-column justify-content-center align-items-center mt-5">
+<div class="d-flex flex-column justify-content-center align-items-center mt-5" id="main">
   <h1 class="text-center mb-5">Lo que te ofrecemos</h1>
   <div id="main-descripcion-oferta" class="d-flex flex-wrap justify-content-center align-items-center">
-    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+    <div class="main-descripcion-oferta-item" (mouseenter)="cambiarColorHover($event)" (mouseleave)="cambiarColorHover($event)">
       <h4>Calcificante oral</h4>
       <img src="../../../assets/img/icon/vitamina1-white.png" class="icono">
       <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 3]">Buscar</button>
     </div>
-    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+    <div class="main-descripcion-oferta-item other-color" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
       <h4 class="m-1">Antiparasitario-oral</h4>
       <img src="../../../assets/img/icon/vitamina2-white.png" class="icono">
       <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 5]">Buscar</button>
@@ -16,7 +16,7 @@
       <img src="../../../assets/img/icon/vitamina3-white.png" class="icono">
       <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 4]">Buscar</button>
     </div>
-    <div class="main-descripcion-oferta-item" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
+    <div class="main-descripcion-oferta-item other-color" (mouseover)="cambiarColorHover($event)"  (mouseout)="cambiarColorHover($event)">
       <h4>Sales minerales</h4>
       <img src="../../../assets/img/icon/vitamina4-white.png" class="icono">
       <button class="m-3 btn btn-light" [routerLink]="['/producto/producto', 7]">Buscar</button>
@@ -24,7 +24,7 @@
   </div>
 </div>
 
-<div class="d-flex flex-column justify-content-center align-items-center mt-5">
+<div class="d-flex flex-column justify-content-center align-items-center mt-5" id="all-products">
   <h1 class="text-center mb-2">Algunos de nuestros productos</h1>
   <div id="lista-productos" class="d-flex flex-column justify-content-center align-items-center">
 

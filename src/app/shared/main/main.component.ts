@@ -64,10 +64,18 @@ export class MainComponent {
   }
 
   cambiarColorHover(event: MouseEvent) {
+    console.log("Evento:", event);
     this.mouseSobreElemento = !this.mouseSobreElemento;
     const elemento = event.currentTarget as HTMLElement;
-    if(this.mouseSobreElemento==true){
-      elemento.style.backgroundColor = 'white';
+    //if(this.mouseSobreElemento==true){
+      const backgroundColor = window.getComputedStyle(elemento).backgroundColor;
+      console.log("inicio", backgroundColor);
+
+      if (backgroundColor === "" || backgroundColor === "rgb(36, 175, 244)") {
+      elemento.style.backgroundColor = '#b3e6ff';
+
+
+      console.log("mouseover",elemento.style.backgroundColor)
       if(elemento.querySelector("img")){
         elemento.querySelector("img")!.src=elemento.querySelector("img")!.src.substring(0,47) + ".png";
 
@@ -79,8 +87,9 @@ export class MainComponent {
         elemento.querySelector("h4")!.style.color="black"
 
       }
-    }else{
-      elemento.style.backgroundColor = 'rgb(97, 97, 200)';
+    }else if (backgroundColor === "rgb(179, 230, 255)") {
+      elemento.style.backgroundColor = '#24aff4';
+      console.log("mouseout",elemento.style.backgroundColor)
       if(elemento.querySelector("img")){
         elemento.querySelector("img")!.src=elemento.querySelector("img")!.src.substring(0,47) + "-white.png";
 

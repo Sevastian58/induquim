@@ -7,9 +7,10 @@
         <button mat-raised-button color="accent" id="producto-img-button-rigth" (click)="siguiente()">Siguiente</button>
       </div>
       <img src="{{producto.imagen_url[posImg]}}" id="producto-img-main">
-      <div id="producto-img-lista">
-        <div *ngFor="let item of producto.imagen_url">
-          <img src="{{item}}"  *ngIf="item!==producto.imagen_url[posImg]" class="producto-img-lista-item">
+      <div id="producto-img-lista" class="d-flex flex-wrap justify-content-left align-items-end">
+        <div *ngFor="let item of producto.imagen_url; let i = index" class="producto-lista-item">
+          <img src="{{item}}"  *ngIf="item!==producto.imagen_url[posImg]" class="producto-img-lista-item" (load)="ordenarImg($event, i)" >
+          {{i}}
         </div>
          </div>
     </div>
@@ -25,7 +26,7 @@
         </div>
       </div>
 
-      <div id="producto-periodo-retiro-desc" *ngIf="producto.periodo_retiro_descripcion!=''" class="d-flex flex-column">
+      <div id="producto-periodo-retiro-desc" *ngIf="producto.periodo_retiro_descripcion!=''" class="d-flex flex-column" (load)="definirColores()" >
         <h4>Periodo de retiro</h4>
         <div id="producto-periodo-retiro-desc-descripcion" class="d-flex flex-column align-items-center">
           <p>{{producto.periodo_retiro_descripcion}}</p>

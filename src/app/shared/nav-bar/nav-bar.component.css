@@ -1,9 +1,13 @@
 nav{
-  background-color: #2196F3 !important;
+  background-color: white !important;
 }
 a{
-  color: white;
+  color: black;
 }
 a:hover{
   color: rgb(160, 153, 153);
+}
+img{
+  width: 130px;
+  height: auto;
 }

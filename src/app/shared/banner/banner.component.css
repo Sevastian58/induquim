@@ -1,21 +1,33 @@
 #banner{
-  background-image: url('../../../assets/img/banner1.png');
+  background-image: url('../../../assets/img/banner1.jpg');
   height: 80vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
+}
+h2{
+  color: white;
+  font-size: 200%;
+}
+p{
+  color: white;
+}
+h1{
+  color: #24aff4;
+  font-size: 500%;
 }
 h3{
   color: white;
   margin-top: 14vh;
 }
 #banner-descripcion{
-  float: right;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-h1{
-  color: black;
-  margin-top: 5vh;
-}
+
 button{
   width: 200px;
   margin-top: 40vh;
@@ -26,4 +38,21 @@ button{
 a{
   text-decoration: none;
   color: white;
+}
+#banner-texto{
+  background-color: rgba(0, 0, 0, 0.41);
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#linea{
+  width: 50%;
+  background-color: #24aff4;
+  height: 9px;
+  border: none;
+  margin: 0;
+  opacity: none;
 }
