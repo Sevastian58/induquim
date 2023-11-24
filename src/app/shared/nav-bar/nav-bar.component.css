@@ -1,3 +1,15 @@
+@font-face {
+  font-family: SquareKi;
+  src: url("../../../assets/fonts/sqr721ki.ttf");
+}
+@font-face {
+  font-family: SquareBi;
+  src: url("../../../assets/fonts/sqr721bi.ttf");
+}
+@font-face {
+  font-family: SquareReg;
+  src: url("../../../assets/fonts/Typo_Square_Regular.otf");
+}
 nav{
   background-color: white !important;
   position: fixed;
@@ -7,7 +19,7 @@ nav{
 }
 a{
   color: black;
-  font-family: square;
+  font-family: SquareReg;
   font-size: 17px;
 }
 a:hover{

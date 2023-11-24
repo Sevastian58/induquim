@@ -7,6 +7,7 @@
 }
 #contact-banner-titulo h1{
   font-size: calc(50px + 5vw);
+  color: white;
 }
 hr{
   background-color: black;
@@ -15,6 +16,7 @@ hr{
 }
 #contact-banner-texto{
   font-size: 0.1vw;
+  color: white;
 }
 #contact-banner-texto p{
   font-size: calc(15px + 0.09vw);

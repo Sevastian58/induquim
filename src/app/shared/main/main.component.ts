@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { Producto } from 'src/app/producto/interfaces/producto';
 import { TipoProducto } from 'src/app/producto/interfaces/tipoProducto';
 import { ProductoService } from 'src/app/producto/services/producto.service';
@@ -13,6 +13,7 @@ import * as bootstrap from 'bootstrap';
 })
 export class MainComponent {
 
+  windowWidth: number=0;
   backgroundImage:string="url('../../../assets/img/animales/perrito.png')";
   listaProductos:Producto[]=[];
 
@@ -25,8 +26,11 @@ export class MainComponent {
   listaTipoProductos:TipoProducto[]=[]
   mouseSobreElemento = false;
 
-  constructor(private productoService:ProductoService, private tipoProductoService:TipoProductoService){
+  constructor(private productoService:ProductoService, private tipoProductoService:TipoProductoService,
+              private elRef: ElementRef){
+    this.windowWidth = window.innerWidth;
 
+    window.addEventListener('resize', this.onResize.bind(this));
   }
 
   ngOnInit(){
@@ -36,6 +40,14 @@ export class MainComponent {
       this.limitarListaProductos();
     }
    }
+
+   ngAfterViewInit() {
+
+    setTimeout(() => {
+      this.onResize();
+    }, 2000);
+
+  }
 
 
    obtenerBackgroudImage(ruta:string):string{
@@ -160,5 +172,40 @@ export class MainComponent {
   }
 
 
+  onResize() {
+
+    this.windowWidth = window.innerWidth;
+
+    const elementLeft:HTMLElement=this.elRef.nativeElement.querySelector('.producto-item-left');
+    const elementRight:HTMLElement=this.elRef.nativeElement.querySelector('.producto-item-right');
+
+    //verificamos que exista el elemento
+
+    if(elementLeft && elementRight){
+
+
+
+      let difElementLeft  = (this.windowWidth - parseInt(window.getComputedStyle(elementLeft).width)) / 2;
+      let difElementRight = (this.windowWidth - parseInt(window.getComputedStyle(elementRight).width)) / 2;
+
+      if(this.windowWidth<=900){
+       
+           elementLeft.style.marginLeft=difElementLeft + "px";
+           elementLeft.style.marginRight="0";
+
+           elementRight.style.marginRight=difElementRight + "px";
+           elementRight.style.marginLeft=difElementRight + "px";
+      }
+      else{
+          elementLeft.style.marginLeft="0";
+          elementLeft.style.marginRight="7%";
+
+          elementRight.style.marginRight="0";
+          elementRight.style.marginLeft="15%";
+      }
+    }
+    //alert(this.windowWidth)
+
+  }
 
 }
