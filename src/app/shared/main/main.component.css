@@ -1,6 +1,8 @@
 h1{
   background-color: #d2d2d3;
+  font-size: 30px;
   width: 100%;
+  padding: 15px;
 }
 #main{
   width: 100%;
@@ -79,8 +81,8 @@ h4{
 }
 
 .producto-item{
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  margin-right: 10%;
   margin-top: 7vh;
   margin-bottom: 7vh;
 }
@@ -92,18 +94,18 @@ h4{
   /*background-image: linear-gradient(34deg,rgb(61, 121, 194) 0%,#fb6178 100%);*/
   background-color: #b3e6ff;
   width: 50%;
-  height: 400px;
+  height: 270px;
   min-width: 370px;
 }
 .producto-item-img-fondo img{
-  height: 45vh;
+  height: 60vh;
   width: auto;
 }
 .producto-item-texto{
   padding: 5vw;
   width: 50%;
   min-width: 370px;
-  height: 400px;
+  height: 270px;
   box-shadow: 6px 20px 10px rgb(119, 113, 113);
 }
 
@@ -111,18 +113,18 @@ h4{
   /*background-image: linear-gradient(34deg,#fb6178 0%,rgb(61, 121, 194)  100%);*/
   background-color: #b3e6ff;
   width: 50%;
-  height: 400px;
+  height: 270px;
   min-width: 370px;
 }
 .producto-item-img-fondo2 img{
-  height: 45vh;
+  height: 60vh;
   width: auto;
 }
 .producto-item-texto2{
   padding: 5vw;
   width: 50%;
   min-width: 370px;
-  height: 400px;
+  height: 270px;
   box-shadow: -5px 14px 10px rgb(119, 113, 113);
 }
 .contenedor{
@@ -169,4 +171,35 @@ mat-card-title{
 }
 mat-card-subtitle{
   color: white;
+}
+#carouselExampleInterval{
+  margin-top: 4vh;
+  min-height: 500px;
+  min-height: 68vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#carouselExampleInterval2{
+  margin-top: 4vh;
+  min-height: 500px;
+  min-height: 68vh;
+  margin-bottom: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner{
+  height: inherit;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: initial;
+}
+.carousel-item{
+  height: 80%;
+  margin-top: 10%;
 }

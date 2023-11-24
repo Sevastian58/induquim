@@ -64,6 +64,12 @@ export class MainComponent {
   }
 
   cambiarColorHover(event: MouseEvent) {
+
+    //definimos la ruta base
+    let rutaBase = "../../../assets/img/icon/"
+
+
+
     console.log("Evento:", event);
     this.mouseSobreElemento = !this.mouseSobreElemento;
     const elemento = event.currentTarget as HTMLElement;
@@ -77,7 +83,11 @@ export class MainComponent {
 
       console.log("mouseover",elemento.style.backgroundColor)
       if(elemento.querySelector("img")){
-        elemento.querySelector("img")!.src=elemento.querySelector("img")!.src.substring(0,47) + ".png";
+
+        let posRutaInit = elemento.querySelector("img")!.src.indexOf("vitamina")
+        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".")
+
+        elemento.querySelector("img")!.src=rutaBase + elemento.querySelector("img")!.src.substring(posRutaInit,posRutaFin)  + ".png";
 
       }
       if(elemento.querySelector("button")){
@@ -91,7 +101,10 @@ export class MainComponent {
       elemento.style.backgroundColor = '#24aff4';
       console.log("mouseout",elemento.style.backgroundColor)
       if(elemento.querySelector("img")){
-        elemento.querySelector("img")!.src=elemento.querySelector("img")!.src.substring(0,47) + "-white.png";
+        let posRutaInit = elemento.querySelector("img")!.src.indexOf("vitamina")
+        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".")
+
+        elemento.querySelector("img")!.src=rutaBase + elemento.querySelector("img")!.src.substring(posRutaInit,posRutaFin)  + "-white.png";
 
       }
       if(elemento.querySelector("button")){

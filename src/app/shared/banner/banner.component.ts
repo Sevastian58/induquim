@@ -80,7 +80,7 @@ export class BannerComponent {
         bannerElement.style.backgroundSize="cover";
         bannerElement.style.height="70vh";
         bannerDescripcion.style.height="70vh";
-        bannerTexto.style.height="50%";
+        bannerTexto.style.height="60%";
         //bannerTexto.style.display="block";
         //bannerDescripcion.style.width=this.windowWidth + "px";
       }

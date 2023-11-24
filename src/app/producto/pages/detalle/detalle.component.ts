@@ -96,13 +96,15 @@ export class DetalleComponent {
     let anchoImg= imgElement.naturalWidth
     let altoImg= imgElement.naturalHeight
 
+    let newAncho= altoImg*(imgElement.width)/anchoImg
+
     if(anchoImg>altoImg){
       imgElement.style.width= "400px";
       imgElement.style.height="100px";
     }
     else{
       imgElement.style.width= "14vw";
-      imgElement.style.height= "60vh";
+      imgElement.style.height= newAncho+"px";
     }
   }
 
