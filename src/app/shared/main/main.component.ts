@@ -85,7 +85,7 @@ export class MainComponent {
       if(elemento.querySelector("img")){
 
         let posRutaInit = elemento.querySelector("img")!.src.indexOf("vitamina")
-        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".")
+        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".png")
 
         elemento.querySelector("img")!.src=rutaBase + elemento.querySelector("img")!.src.substring(posRutaInit,posRutaFin)  + ".png";
 
@@ -102,7 +102,9 @@ export class MainComponent {
       console.log("mouseout",elemento.style.backgroundColor)
       if(elemento.querySelector("img")){
         let posRutaInit = elemento.querySelector("img")!.src.indexOf("vitamina")
-        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".")
+        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".png")
+
+        console.log("la ruta netlify es", elemento.querySelector("img")!.src)
 
         elemento.querySelector("img")!.src=rutaBase + elemento.querySelector("img")!.src.substring(posRutaInit,posRutaFin)  + "-white.png";
 
