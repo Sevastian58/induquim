@@ -76,6 +76,9 @@ h1{
 .other-color{
   background-color:#b3e6ff ;
 }
+.other-color>h4{
+  color: black;
+}
 h4{
   color: white;
 }

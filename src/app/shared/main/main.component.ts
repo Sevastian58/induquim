@@ -85,7 +85,7 @@ export class MainComponent {
       if(elemento.querySelector("img")){
 
         let posRutaInit = elemento.querySelector("img")!.src.indexOf("vitamina")
-        let posRutaFin = elemento.querySelector("img")!.src.indexOf(".png")
+        let posRutaFin = elemento.querySelector("img")!.src.indexOf("-white.png")
 
         elemento.querySelector("img")!.src=rutaBase + elemento.querySelector("img")!.src.substring(posRutaInit,posRutaFin)  + ".png";
 
