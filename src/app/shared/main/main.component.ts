@@ -172,12 +172,12 @@ export class MainComponent {
   }
 
 
-  onResize() {
+  /*onResize() {
 
     this.windowWidth = window.innerWidth;
 
-    const elementLeft:HTMLElement=this.elRef.nativeElement.querySelector('.producto-item-left');
-    const elementRight:HTMLElement=this.elRef.nativeElement.querySelector('.producto-item-right');
+    const elementLeft:[HTMLElement]=this.elRef.nativeElement.querySelector('.producto-item-left');
+    const elementRight:[HTMLElement]=this.elRef.nativeElement.querySelector('.producto-item-right');
 
     //verificamos que exista el elemento
 
@@ -185,27 +185,78 @@ export class MainComponent {
 
 
 
-      let difElementLeft  = (this.windowWidth - parseInt(window.getComputedStyle(elementLeft).width)) / 2;
-      let difElementRight = (this.windowWidth - parseInt(window.getComputedStyle(elementRight).width)) / 2;
+      let difElementLeft  = (this.windowWidth - parseInt(window.getComputedStyle(elementLeft[0]).width)) / 2;
+      let difElementRight = (this.windowWidth - parseInt(window.getComputedStyle(elementRight[0]).width)) / 2;
 
       if(this.windowWidth<=900){
-       
-           elementLeft.style.marginLeft=difElementLeft + "px";
-           elementLeft.style.marginRight="0";
 
-           elementRight.style.marginRight=difElementRight + "px";
-           elementRight.style.marginLeft=difElementRight + "px";
+          elementLeft.forEach(x=>{
+            x.style.marginLeft=difElementLeft + "px";
+            x.style.marginRight="0";
+          })
+
+
+          elementRight.forEach(x => {
+            x.style.marginRight=difElementRight + "px";
+            x.style.marginLeft=difElementRight + "px";
+          });
+
+
       }
       else{
-          elementLeft.style.marginLeft="0";
-          elementLeft.style.marginRight="7%";
 
-          elementRight.style.marginRight="0";
-          elementRight.style.marginLeft="15%";
+        elementLeft.forEach(x=>{
+          x.style.marginLeft="0";
+          x.style.marginRight="7%";
+        })
+
+
+        elementRight.forEach(x => {
+
+          x.style.marginRight="0";
+          x.style.marginLeft="15%";
+        });
+
       }
     }
     //alert(this.windowWidth)
 
+  }*/
+
+  onResize() {
+    this.windowWidth = window.innerWidth;
+
+    const elementsLeft: NodeListOf<HTMLElement> = this.elRef.nativeElement.querySelectorAll('.producto-item-left');
+    const elementsRight: NodeListOf<HTMLElement> = this.elRef.nativeElement.querySelectorAll('.producto-item-right');
+
+    let difElementLeft = (this.windowWidth - parseInt(window.getComputedStyle(elementsLeft[0]).width)) / 2;
+    let difElementRight = (this.windowWidth - parseInt(window.getComputedStyle(elementsRight[0]).width)) / 2;
+
+    // Iterar sobre los elementos izquierdos
+    elementsLeft.forEach((element: HTMLElement) => {
+
+
+      if (this.windowWidth <= 900) {
+        element.style.marginLeft = difElementLeft + "px";
+        element.style.marginRight = "0";
+      } else {
+        element.style.marginLeft = "0";
+        element.style.marginRight = "7%";
+      }
+    });
+
+    // Iterar sobre los elementos derechos
+    elementsRight.forEach((element: HTMLElement) => {
+
+
+      if (this.windowWidth <= 900) {
+        element.style.marginRight = difElementRight + "px";
+        element.style.marginLeft = difElementRight + "px";
+      } else {
+        element.style.marginRight = "0";
+        element.style.marginLeft = "15%";
+      }
+    });
   }
 
 }
