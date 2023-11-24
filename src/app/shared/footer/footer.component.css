@@ -1,6 +1,8 @@
 footer{
   background-color: #2196F3;
+  transform: translateY(60px);
 }
 img{
   width: 32px;
 }
+

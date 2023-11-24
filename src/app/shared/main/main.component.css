@@ -1,10 +1,10 @@
 h1{
-  background-color: #8f8f91;
+  background-color: #d2d2d3;
   width: 100%;
 }
 #main{
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  transform: translateY(60px);
 }
 .main-descripcion{
   width: 90vw;
@@ -29,6 +29,7 @@ h1{
 }
 #main-descripcion-oferta{
   text-align: center;
+  margin-bottom: 5%;
 }
 #main-descripcion-oferta>img{
   width: 40vw;
@@ -44,6 +45,12 @@ h1{
 .example-card {
   width: 500px;
   max-width: 200px;
+  min-width: 250px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .example-header-image {
@@ -72,6 +79,8 @@ h4{
 }
 
 .producto-item{
+  width: 80%;
+  margin-left: 10%;
   margin-top: 7vh;
   margin-bottom: 7vh;
 }
@@ -89,7 +98,6 @@ h4{
 .producto-item-img-fondo img{
   height: 45vh;
   width: auto;
-  min-width: 270px;
 }
 .producto-item-texto{
   padding: 5vw;
@@ -108,7 +116,7 @@ h4{
 }
 .producto-item-img-fondo2 img{
   height: 45vh;
-  min-width: 270px;
+  width: auto;
 }
 .producto-item-texto2{
   padding: 5vw;
@@ -118,18 +126,18 @@ h4{
   box-shadow: -5px 14px 10px rgb(119, 113, 113);
 }
 .contenedor{
-  min-height: 60vh;
+  min-height: 65vh;
   width: 90vw;
 }
 #contenedor1{
-background-color: #8f8f91;
+background-color: #d2d2d3;
 }
 #contenedor2{
-  background-color: #8f8f91;
+  background-color: #d2d2d3;
 
 }
 #contenedor3{
-  background-color: #8f8f91;
+  background-color: #d2d2d3;
 }
 /*#carouselExampleInterval2{
   height: 400px;
@@ -138,9 +146,27 @@ background-color: #8f8f91;
   margin-bottom: 5%;
 }
 #all-products{
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  transform: translateY(60px);
 }
 #lista-productos{
   width: 100%;
+}
+mat-card{
+  background-color: #b3e6ff;
+}
+mat-card-header{
+  width: 100%;
+  background-color: #24aff4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+mat-card-title{
+  color: white;
+}
+mat-card-subtitle{
+  color: white;
 }

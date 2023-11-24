@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class NavBarComponent {
 
   windowWidth: number=0;
-  navBarLeftWidth:string="60vw";
+  navBarLeftWidth:string="67vw";
   navBarDisplay:string="block";
 
   constructor(){

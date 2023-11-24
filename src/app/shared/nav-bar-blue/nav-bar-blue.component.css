@@ -13,7 +13,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   font-family: square;
   font-size: 17px;
 }
@@ -37,5 +37,5 @@ a:hover {
   max-height: 80px;
   height: 60px; /* Cambiar a 'max-height' para que no exceda la altura de su contenedor */
   background-color: white;
-  padding: 0 15px; /* Opcional: Añadir relleno si es necesario */
+  padding: 5px; /* Opcional: Añadir relleno si es necesario */
 }
