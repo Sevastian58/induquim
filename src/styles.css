@@ -4,10 +4,14 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .btn-primary{
   background-color: #24aff4!important;
+  border: 0px;
+
 }
 .red{
   background-color: #D52626!important;
+  border: 0px;
 }
 .celeste{
   background-color: #24aff4!important;
+  border: 0px;
 }

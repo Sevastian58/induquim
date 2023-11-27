@@ -28,6 +28,7 @@ a {
   color: white;
   font-family: SquareReg;
   font-size: 17px;
+  font-weight: bold;
 }
 
 a:hover {
@@ -50,4 +51,22 @@ a:hover {
   height: 60px; /* Cambiar a 'max-height' para que no exceda la altura de su contenedor */
   background-color: white;
   padding: 5px; /* Opcional: Añadir relleno si es necesario */
+}
+#img-logo-responsive{
+  width: auto;
+  height: 60px;
+  background-color: white;
+  padding: 5px;
+}
+mat-sidenav{
+  position: fixed!important;
+  z-index: 99!important;
+}
+mat-nav-list{
+  transform: translateY(60px)!important;
+}
+mat-toolbar{
+  position: fixed!important;
+  z-index: 99!important;
+  height: 60px!important;
 }

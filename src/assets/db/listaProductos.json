@@ -1,12 +1,13 @@
 [
   {
     "id":1,
+    "rs":"R.S. A.36.07.N.0021",
     "name":"TONICON",
     "tipoProducto":{
       "id":1,
       "descripcion":"Suplemento Energético"
     },
-    "indicaciones":"Para vacunos de engorde, vacunos en lactaci6n, vacunos en transici6n, terneros, ovinos, caprinos, camelidos sudam., equinos, porcinos, aves, cuyes, conejos, caninos y felinos.",
+    "indicaciones":"Para vacunos de engorde, vacunos en lactación, vacunos en transici6n, terneros, ovinos, caprinos, camelidos sudam., equinos, porcinos, aves, cuyes, conejos, caninos y felinos.",
     "periodo_retiro_descripcion":"",
     "administracion":"Administrar el producto por via oral, unicamente puro, es decir, con la ayuda de una pistola dosificadora a cada animal.",
     "almacenamiento":"Almacenar en un lugar fresco, seco y hermeticamente cerrado a temperatura de 15°C a 30°C.",
@@ -16,10 +17,36 @@
     "imagen_url":["../../../assets/img/productos/TONICON 1.png",
                   "../../../assets/img/productos/TONICON 2.png",
                   "../../../assets/img/productos/TONICON 3.png",
-                  "../../../assets/img/productos/TONICON 4.png"]
+                  "../../../assets/img/productos/TONICON 4.png"],
+    "composicion":{
+      "totalMuestra":"Composición cada 1 litro",
+      "elementos":[
+        {"elemento":"Cobre", "porcentaje":"5.00 mg"},
+        {"elemento":"Hierro", "porcentaje":"50.99 mg"},
+        {"elemento":"Magneso", "porcentaje":"20.89 mg"},
+        {"elemento":"Vitamina B6(Piridoxina clorhidrato)", "porcentaje":"18.33 mg"},
+        {"elemento":"Vitamina B12(Cianocobalamina)", "porcentaje":"22.58 mg"},
+        {"elemento":"Exipiente: Melaza c.s.p.", "porcentaje":"1.00 L"}
+      ]
+    },
+    "dosificacion":[
+      {"especies":"Vacunos de engorde", "dosisDiariaXAnimal":"100 ml/día/5 días"},
+      {"especies":"Vacunos en lactación", "dosisDiariaXAnimal":"150 ml/día/5 días"},
+      {"especies":"Vacunos en transición", "dosisDiariaXAnimal":"200 ml/día/7 días"},
+      {"especies":"Terneros", "dosisDiariaXAnimal":"50 ml/día/7 días"},
+      {"especies":"Ovinos y caprinos", "dosisDiariaXAnimal":"70ml/día/5 días"},
+      {"especies":"Camélidos sudamericanos", "dosisDiariaXAnimal":"80ml/día/7 días"},
+      {"especies":"Equinos", "dosisDiariaXAnimal":"15 0ml/día/5 días"},
+      {"especies":"Porcinos", "dosisDiariaXAnimal":"70 ml/día/5 días"},
+      {"especies":"Aves", "dosisDiariaXAnimal":"1 ml/día/5 días"},
+      {"especies":"Cuyes y conejos", "dosisDiariaXAnimal":"2ml/día/5 días"},
+      {"especies":"Caninos", "dosisDiariaXAnimal":"5 ml/día/5 días"},
+      {"especies":"Felinos", "dosisDiariaXAnimal":"3ml/día/5 días"}
+    ]
   },
   {
     "id":2,
+    "rs":"A.036.019.N.01078",
     "name":"ROBUSTO",
     "tipoProducto":{
       "id":2,
@@ -35,10 +62,45 @@
     "imagen_url":["../../../assets/img/productos/ROBUSTO 1.png",
                   "../../../assets/img/productos/ROBUSTO 2.png",
                   "../../../assets/img/productos/ROBUSTO 3.png",
-                  "../../../assets/img/productos/ROBUSTO 4.png"]
+                  "../../../assets/img/productos/ROBUSTO 4.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 1 litro",
+                    "elementos":[
+                      {"elemento":"Fosforo", "porcentaje":"28g"},
+                      {"elemento":"Magnesio", "porcentaje":"82 mg"},
+                      {"elemento":"Cobalto", "porcentaje":"25 mg"},
+                      {"elemento":"Biotina", "porcentaje":"2 mg"},
+                      {"elemento":"Cobre", "porcentaje":"4 g"},
+                      {"elemento":"Hierro", "porcentaje":"12 g"},
+                      {"elemento":"Metionina", "porcentaje":"5g"},
+                      {"elemento":"Lisina", "porcentaje":"170 g"},
+                      {"elemento":"Vitamina c", "porcentaje":"5 g"},
+                      {"elemento":"Vitamina A", "porcentaje":"14,000 000 UI"},
+                      {"elemento":"Vitamina E", "porcentaje":"7000 UI"},
+                      {"elemento":"Vitamina B12", "porcentaje":"10 mg"},
+                      {"elemento":"Excipiente csp.", "porcentaje":"1000 ml"}
+
+                    ]
+                  },
+                  "dosificacion":[
+                    {"especies":"Vacunos de carne", "dosisDiariaXAnimal":"100 ml/día/5 días"},
+                    {"especies":"Vacunos de leche(12h antes del parto)", "dosisDiariaXAnimal":"400 ml"},
+                    {"especies":"Vacunos de leche(al momento del parto)", "dosisDiariaXAnimal":"400 ml"},
+                    {"especies":"Vacunos de leche(12h despues del parto)", "dosisDiariaXAnimal":"400 ml"},
+                    {"especies":"Terneros", "dosisDiariaXAnimal":"50 ml/día/7 días"},
+                    {"especies":"Ovinos y caprinos", "dosisDiariaXAnimal":"70ml/día/5 días"},
+                    {"especies":"Camélidos sudamericanos", "dosisDiariaXAnimal":"80ml/día/7 días"},
+                    {"especies":"Equinos", "dosisDiariaXAnimal":"150 ml/día/5 días"},
+                    {"especies":"Porcinos", "dosisDiariaXAnimal":"70 ml/día/5 días"},
+                    {"especies":"Aves", "dosisDiariaXAnimal":"1 ml/día/5 días"},
+                    {"especies":"Cuyes y conejos", "dosisDiariaXAnimal":"1 ml/día/5 días"},
+                    {"especies":"Caninos", "dosisDiariaXAnimal":"4 ml/día/5 días"},
+                    {"especies":"Felinos", "dosisDiariaXAnimal":"2 ml/día/5 días"}
+                  ]
   },
   {
     "id":3,
+    "rs":"R.S. A.36.07.N.0126",
     "name":"KALMITA",
     "tipoProducto":{
       "id":3,
@@ -54,10 +116,36 @@
     "imagen_url":["../../../assets/img/productos/KALMITA 1.png",
                 "../../../assets/img/productos/KALMITA 2.png",
                 "../../../assets/img/productos/KALMITA 3.png",
-                "../../../assets/img/productos/KALMITA 4.png"]
+                "../../../assets/img/productos/KALMITA 4.png"],
+                "composicion":{
+                  "totalMuestra":"Composición cada 1 litro",
+                  "elementos":[
+                    {"elemento":"Calcio", "porcentaje":"174.22 g"},
+                    {"elemento":"Fosforo", "porcentaje":"8.19 g"},
+                    {"elemento":"Magenesio", "porcentaje":"20.34 g"},
+                    {"elemento":"Glucosa", "porcentaje":"2.06 g"},
+                    {"elemento":"Excipiente csp.", "porcentaje":"1.00 L"}
+
+                  ]
+                },
+                "dosificacion":[
+                  {"especies":"Vacunos de engorde", "dosisDiariaXAnimal":"100 ml/día/de 3 a 5 días"},
+                  {"especies":"Vacunos en lactación", "dosisDiariaXAnimal":"150 ml/día/de 3 a 5 días"},
+                  {"especies":"Vacunos en transición", "dosisDiariaXAnimal":"150 ml/día/de 3 a 6 días"},
+                  {"especies":"Terneros", "dosisDiariaXAnimal":"50 ml/día/de 4 a 7 días"},
+                  {"especies":"Ovinos y caprinos", "dosisDiariaXAnimal":"70ml/día/de 3 a 5 días"},
+                  {"especies":"Camélidos sudamericanos", "dosisDiariaXAnimal":"100ml/día/de 4 a 6 días"},
+                  {"especies":"Equinos", "dosisDiariaXAnimal":"150 ml/día/de 3 a 4 días"},
+                  {"especies":"Porcinos", "dosisDiariaXAnimal":"60 ml/día/de 3 a 5 días"},
+                  {"especies":"Aves", "dosisDiariaXAnimal":"1 ml/día/de 3 a 5 días"},
+                  {"especies":"Cuyes y conejos", "dosisDiariaXAnimal":"2 ml/día/de 3 a  5 días"},
+                  {"especies":"Caninos", "dosisDiariaXAnimal":"5 ml/día/de 3 a 4 días"},
+                  {"especies":"Felinos", "dosisDiariaXAnimal":"2 ml/día/de 3 a 4 días"}
+                ]
   },
   {
     "id":4,
+    "rs":"R.S. A.36.07.N.0142",
     "name":"WAIKI",
     "tipoProducto":{
       "id":4,
@@ -73,10 +161,37 @@
     "imagen_url":["../../../assets/img/productos/WAIKI 1.png",
                   "../../../assets/img/productos/WAIKI 2.png",
                   "../../../assets/img/productos/WAIKI 3.png",
-                  "../../../assets/img/productos/WAIKI 4.png"]
+                  "../../../assets/img/productos/WAIKI 4.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 1 litro",
+                    "elementos":[
+                      {"elemento":"Fosforo", "porcentaje":"96.12 g"},
+                      {"elemento":"Magenesio", "porcentaje":"21.67 g"},
+                      {"elemento":"Glucosa", "porcentaje":"3.67 g"},
+                      {"elemento":"Hierro", "porcentaje":"650.32 mg"},
+                      {"elemento":"Cobre", "porcentaje":"259.54 mg"},
+                      {"elemento":"Cobalto", "porcentaje":"52.04 mg"},
+                      {"elemento":"Excipiente csp.", "porcentaje":"1.00 L"}
+                    ]
+                  },
+                  "dosificacion":[
+                    {"especies":"Vacunos de engorde", "dosisDiariaXAnimal":"100 ml/día/de 3 a 5 días"},
+                    {"especies":"Vacunos en lactación", "dosisDiariaXAnimal":"150 ml/día/de 3 a 5 días"},
+                    {"especies":"Vacunos en transición", "dosisDiariaXAnimal":"150 ml/día/de 3 a 6 días"},
+                    {"especies":"Terneros", "dosisDiariaXAnimal":"50 ml/día/de 4 a 7 días"},
+                    {"especies":"Ovinos y caprinos", "dosisDiariaXAnimal":"70ml/día/de 3 a 5 días"},
+                    {"especies":"Camélidos sudamericanos", "dosisDiariaXAnimal":"100ml/día/de 4 a 6 días"},
+                    {"especies":"Equinos", "dosisDiariaXAnimal":"150 ml/día/de 3 a 4 días"},
+                    {"especies":"Porcinos", "dosisDiariaXAnimal":"60 ml/día/de 3 a 5 días"},
+                    {"especies":"Aves", "dosisDiariaXAnimal":"1 ml/día/de 3 a 5 días"},
+                    {"especies":"Cuyes y conejos", "dosisDiariaXAnimal":"2 ml/día/de 3 a  5 días"},
+                    {"especies":"Caninos", "dosisDiariaXAnimal":"5 ml/día/de 3 a 4 días"},
+                    {"especies":"Felinos", "dosisDiariaXAnimal":"2 ml/día/de 3 a 4 días"}
+                  ]
   },
   {
     "id":5,
+    "rs":"R.S. F.54.02.N.0230",
     "name":"SANITO 22.2%",
     "tipoProducto":{
       "id":5,
@@ -96,10 +211,20 @@
                   "../../../assets/img/productos/SANITO 5.png",
                   "../../../assets/img/productos/SANITO 6.png",
                   "../../../assets/img/productos/SANITO 7.png",
-                  "../../../assets/img/productos/SANITO 8.png"]
+                  "../../../assets/img/productos/SANITO 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 1 ml",
+                    "elementos":[
+                      {"elemento":"Triclabendazol", "porcentaje":"12 mg"},
+                      {"elemento":"Fenbendazol", "porcentaje":"10 mg"},
+                      {"elemento":"Ivermectina", "porcentaje": "0.2 mg"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":6,
+    "rs":"",
     "name":"PARACUYES",
     "tipoProducto":{
       "id":5,
@@ -115,10 +240,20 @@
     "imagen_url":["../../../assets/img/productos/PARACUYES 1.png",
                   "../../../assets/img/productos/PARACUYES 2.png",
                   "../../../assets/img/productos/PARACUYES 3.png",
-                  "../../../assets/img/productos/PARACUYES 4.png"]
+                  "../../../assets/img/productos/PARACUYES 4.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 1 ml",
+                    "elementos":[
+                      {"elemento":"Triclabendazol", "porcentaje":"60.00 mg"},
+                      {"elemento":"Fenbendazol", "porcentaje":"250.00 mg"},
+                      {"elemento":"Ivermectina", "porcentaje": "1.20 mg"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"1 ml"}
+                    ]
+                  }
   },
   {
     "id":7,
+    "rs":"R.S. F.08.02.N.1000",
     "name":"WASON A15%",
     "tipoProducto":{
       "id":6,
@@ -138,10 +273,18 @@
                   "../../../assets/img/productos/WASON A15� 5.png",
                   "../../../assets/img/productos/WASON A15� 6.png",
                   "../../../assets/img/productos/WASON A15� 7.png",
-                  "../../../assets/img/productos/WASON A15� 8.png"]
+                  "../../../assets/img/productos/WASON A15� 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Albendazol", "porcentaje": "15 mg"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":8,
+    "rs":"R.S. F.08.36.N.0998",
     "name":"WASON T15%",
     "tipoProducto":{
       "id":6,
@@ -161,10 +304,18 @@
                   "../../../assets/img/productos/WASON T15� 5.png",
                   "../../../assets/img/productos/WASON T15� 6.png",
                   "../../../assets/img/productos/WASON T15� 7.png",
-                  "../../../assets/img/productos/WASON T15� 8.png"]
+                  "../../../assets/img/productos/WASON T15� 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Triclabendazol", "porcentaje": "15 mg"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":9,
+    "rs":"R.S. F.08.02.I.1046",
     "name":"WASON 22%",
     "tipoProducto":{
       "id":5,
@@ -184,10 +335,19 @@
                   "../../../assets/img/productos/WASON 22� 5.png",
                   "../../../assets/img/productos/WASON 22� 6.png",
                   "../../../assets/img/productos/WASON 22� 7.png",
-                  "../../../assets/img/productos/WASON 22� 8.png"]
+                  "../../../assets/img/productos/WASON 22� 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Closantel", "porcentaje": "12 gr."},
+                      {"elemento":"Albendazol", "porcentaje": "10 gr."},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":10,
+    "rs":"R.S. F.08.02.N.1053",
     "name":"WASON R24%",
     "tipoProducto":{
       "id":6,
@@ -207,10 +367,20 @@
                   "../../../assets/img/productos/WASON R24� 5.png",
                   "../../../assets/img/productos/WASON R24� 6.png",
                   "../../../assets/img/productos/WASON R24� 7.png",
-                  "../../../assets/img/productos/WASON R24� 8.png"]
+                  "../../../assets/img/productos/WASON R24� 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Rafoxanide", "porcentaje": "12 gr."},
+                      {"elemento":"Albendazol", "porcentaje": "12 gr."},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
+
   },
   {
     "id":11,
+    "rs":"R.S. F.08.36.N.1049",
     "name":"WASON -F10%",
     "tipoProducto":{
       "id":6,
@@ -230,10 +400,18 @@
                   "../../../assets/img/productos/WASON -F10� 5.png",
                   "../../../assets/img/productos/WASON -F10� 6.png",
                   "../../../assets/img/productos/WASON -F10� 7.png",
-                  "../../../assets/img/productos/WASON -F10� 8.png"]
+                  "../../../assets/img/productos/WASON -F10� 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Fenbedazol", "porcentaje": "10 g."},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":12,
+    "rs":"R.S. F.08.85.N.1113",
     "name":"TERMINADOR C12%",
     "tipoProducto":{
       "id":5,
@@ -253,10 +431,18 @@
                   "../../../assets/img/productos/TERMINADOR C12 5.png",
                   "../../../assets/img/productos/TERMINADOR C12 6.png",
                   "../../../assets/img/productos/TERMINADOR C12 7.png",
-                  "../../../assets/img/productos/TERMINADOR C12 8.png"]
+                  "../../../assets/img/productos/TERMINADOR C12 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Closantel", "porcentaje": "12 gr"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":13,
+    "rs":"R.S. F.08.02.N.1135",
     "name":"ARROJADOR",
     "tipoProducto":{
       "id":5,
@@ -276,10 +462,23 @@
                   "../../../assets/img/productos/ARROJADOR 5.png",
                   "../../../assets/img/productos/ARROJADOR 6.png",
                   "../../../assets/img/productos/ARROJADOR 7.png",
-                  "../../../assets/img/productos/ARROJADOR 8.png"]
+                  "../../../assets/img/productos/ARROJADOR 8.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Triclabendazol", "porcentaje": "12 g"},
+                      {"elemento":"Fenbedazol", "porcentaje": "7.5 g"},
+                      {"elemento":"Cobalto", "porcentaje": "100.00 mg"},
+                      {"elemento":"Cobre", "porcentaje": "50.00 mg"},
+                      {"elemento":"Selenio", "porcentaje": "20.00 mg"},
+                      {"elemento":"Vitamina B12", "porcentaje": "1.17 g"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":14,
+    "rs":"R.S. F.09.70.N.0276",
     "name":"SANITO 12.5%",
     "tipoProducto":{
       "id":5,
@@ -294,10 +493,19 @@
     "color":"#EFB24A",
     "imagen_url":["../../../assets/img/productos/SANITO 12.5 1.png",
                   "../../../assets/img/productos/SANITO 12.5 2.png",
-                  "../../../assets/img/productos/SANITO 12.5 3.png"]
+                  "../../../assets/img/productos/SANITO 12.5 3.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Fenbedazol", "porcentaje": "11 gr"},
+                      {"elemento":"Ivermectina", "porcentaje": "1.5 gr"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":15,
+    "rs":"R.S. A.36.07.N.0020",
     "name":"CRIADOR",
     "tipoProducto":{
       "id":7,
@@ -313,10 +521,30 @@
     "imagen_url":["../../../assets/img/productos/CRIADOR 1.png",
                   "../../../assets/img/productos/CRIADOR 2.png",
                   "../../../assets/img/productos/CRIADOR 3.png",
-                  "../../../assets/img/productos/CRIADOR 4.png"]
+                  "../../../assets/img/productos/CRIADOR 4.png"],
+                  "composicion":{
+                    "totalMuestra":"",
+                    "elementos":[
+                      {"elemento":"Calcio", "porcentaje": "220.16 g"},
+                      {"elemento":"Fosforo", "porcentaje": "160.97 g"},
+                      {"elemento":"Magenesio", "porcentaje": "27.04 g"},
+                      {"elemento":"Azufre", "porcentaje": "0.31 g"},
+                      {"elemento":"Hierro", "porcentaje": "1 0532.22 mg"},
+                      {"elemento":"Selenio", "porcentaje": "40.61 mg"},
+                      {"elemento":"Cobre", "porcentaje": "1 214.09 mg"},
+                      {"elemento":"Cobalto", "porcentaje": "81.82 mg"},
+                      {"elemento":"Zinc", "porcentaje": "3 215.6 mg"},
+                      {"elemento":"Yodo", "porcentaje": "32.4 mg"},
+                      {"elemento":"Vitamina A(Retinol palmitado)", "porcentaje": "300 189.56 UI"},
+                      {"elemento":"Vitamina D3(Cholecalciferol)", "porcentaje": "70 995.49 UI"},
+                      {"elemento":"Vitamina E(DL-alpha Tocoferol)", "porcentaje": "274.85 UI"},
+                      {"elemento":"Excipiente: fosfato dicacico c.s.p.", "porcentaje":"1.00 kg"}
+                    ]
+                  }
   },
   {
     "id":16,
+    "rs":"R.S. F.08.70.N.1043",
     "name":"PANAFIN 5%",
     "tipoProducto":{
       "id":8,
@@ -329,10 +557,18 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#85178D",
-    "imagen_url":["../../../assets/img/productos/PANAFIN.png"]
+    "imagen_url":["../../../assets/img/productos/PANAFIN.png"],
+    "composicion":{
+      "totalMuestra":"Composición cada 100 ml",
+      "elementos":[
+        {"elemento":"Fenbedazol", "porcentaje": "5 gr"},
+        {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+      ]
+    }
   },
   {
     "id":17,
+    "rs":"R.S. F.09.33.N.0267",
     "name":"SARNAPEC",
     "tipoProducto":{
       "id":6,
@@ -349,10 +585,18 @@
                   "../../../assets/img/productos/SARNAPEC 2.png",
                   "../../../assets/img/productos/SARNAPEC 3.png",
                   "../../../assets/img/productos/SARNAPEC 4.png",
-                  "../../../assets/img/productos/SARNAPEC 5.png"]
+                  "../../../assets/img/productos/SARNAPEC 5.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Ivermectina", "porcentaje": "1.5 mg"},
+                      {"elemento":"Excipientes c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":18,
+    "rs":"R.S. F.87.33.N.0329",
     "name":"SANITO FULL",
     "tipoProducto":{
       "id":9,
@@ -369,10 +613,18 @@
                   "../../../assets/img/productos/SANITO FULL 2.png",
                   "../../../assets/img/productos/SANITO FULL 3.png",
                   "../../../assets/img/productos/SANITO FULL 4.png",
-                  "../../../assets/img/productos/SANITO FULL 5.png"]
+                  "../../../assets/img/productos/SANITO FULL 5.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Fipronil", "porcentaje": "2.00 mg"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100.00 ml"}
+                    ]
+                  }
   },
   {
     "id":19,
+    "rs":"R.S. F.82.32.N.0215",
     "name":"COLIPEC",
     "tipoProducto":{
       "id":10,
@@ -389,10 +641,18 @@
                   "../../../assets/img/productos/COLIPEC 2.png",
                   "../../../assets/img/productos/COLIPEC 3.png",
                   "../../../assets/img/productos/COLIPEC 4.png",
-                  "../../../assets/img/productos/COLIPEC 5.png"]
+                  "../../../assets/img/productos/COLIPEC 5.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Enrofloxacina", "porcentaje": "20.00 mg"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100.00 ml"}
+                    ]
+                  }
   },
   {
     "id":20,
+    "rs":"R.S. F.10.33.N.0253",
     "name":"YODOPEC",
     "tipoProducto":{
       "id":11,
@@ -409,10 +669,19 @@
     "imagen_url":["../../../assets/img/productos/YODOPEC 1.png",
                   "../../../assets/img/productos/YODOPEC 2.png",
                   "../../../assets/img/productos/YODOPEC 3.png",
-                  "../../../assets/img/productos/YODOPEC 4.png"]
+                  "../../../assets/img/productos/YODOPEC 4.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Yoduro", "porcentaje": "6.753 gr"},
+                      {"elemento":"Yoduro de Potasio", "porcentaje": "3.047 gr"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":21,
+    "rs":"R.S. F..99.55.N.0097",
     "name":"DOLOKIT",
     "tipoProducto":{
       "id":12,
@@ -428,10 +697,19 @@
     "color":"#73BA4C",
     "imagen_url":["../../../assets/img/productos/DOLOKIT 1.png",
                   "../../../assets/img/productos/DOLOKIT 2.png",
-                  "../../../assets/img/productos/DOLOKIT 3.png"]
+                  "../../../assets/img/productos/DOLOKIT 3.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Salicilato de metilo", "porcentaje": "6 gr"},
+                      {"elemento":"Trementina vegetal", "porcentaje": "7 gr"},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje":"100 ml"}
+                    ]
+                  }
   },
   {
     "id":22,
+    "rs":"",
     "name":"ACEITE MINERAL",
     "tipoProducto":{
       "id":13,
@@ -446,10 +724,26 @@
     "color":"#69AF43",
     "imagen_url":["../../../assets/img/productos/ACEITE MINERAL 1.png",
                   "../../../assets/img/productos/ACEITE MINERAL 2.png",
-                  "../../../assets/img/productos/ACEITE MINERAL 3.png"]
+                  "../../../assets/img/productos/ACEITE MINERAL 3.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Aceite Mineral", "porcentaje": "100%"}
+                    ]
+                  },
+                  "dosificacion":[
+                    {"especies":"Equinos", "dosisDiariaXAnimal":"500ml - 1000ml"},
+                    {"especies":"Vacunos", "dosisDiariaXAnimal":"500ml - 1000ml"},
+                    {"especies":"Porcinos", "dosisDiariaXAnimal":"100ml - 300ml"},
+                    {"especies":"Ovinos y caprinos", "dosisDiariaXAnimal":"200ml - 400ml"},
+                    {"especies":"Camélidos", "dosisDiariaXAnimal":"300ml - 500ml"},
+                    {"especies":"Caninos", "dosisDiariaXAnimal":"20ml - 50ml"},
+                    {"especies":"Felinos", "dosisDiariaXAnimal":"2ml - 5ml"}
+                  ]
   },
   {
     "id":23,
+    "rs":"",
     "name":"CREOLINA MAGISTRAL",
     "tipoProducto":{
       "id":15,
@@ -466,10 +760,19 @@
     "imagen_url":["../../../assets/img/productos/CREOLINA 1.png",
                   "../../../assets/img/productos/CREOLINA 2.png",
                   "../../../assets/img/productos/CREOLINA 3.png",
-                  "../../../assets/img/productos/CREOLINA 4.png"]
+                  "../../../assets/img/productos/CREOLINA 4.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Creosota", "porcentaje": "65 gr."},
+                      {"elemento":"Emulsificante", "porcentaje": "20 gr."},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje": "100 ml."}
+                    ]
+                  }
   },
   {
     "id":24,
+    "rs":"",
     "name":"KRESO FENOL",
     "tipoProducto":{
       "id":16,
@@ -487,10 +790,19 @@
                   "../../../assets/img/productos/KRESO 2.png",
                   "../../../assets/img/productos/KRESO 3.png",
                   "../../../assets/img/productos/KRESO 4.png",
-                  "../../../assets/img/productos/KRESO 5.png"]
+                  "../../../assets/img/productos/KRESO 5.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Creosota", "porcentaje": "52 gr."},
+                      {"elemento":"Emulsificante", "porcentaje": "18 gr."},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje": "100 ml."}
+                    ]
+                  }
   },
   {
     "id":25,
+    "rs":"",
     "name":"KRESO INKA",
     "tipoProducto":{
       "id":17,
@@ -507,10 +819,18 @@
     "imagen_url":["../../../assets/img/productos/KRESO INKA 1.png",
                   "../../../assets/img/productos/KRESO INKA 2.png",
                   "../../../assets/img/productos/KRESO INKA 3.png",
-                  "../../../assets/img/productos/KRESO INKA 4.png"]
+                  "../../../assets/img/productos/KRESO INKA 4.png"],
+                  "composicion":{
+                    "totalMuestra":"Composición cada 100 ml",
+                    "elementos":[
+                      {"elemento":"Cresoles", "porcentaje": "33 gr."},
+                      {"elemento":"Excipiente c.s.p.", "porcentaje": "100 ml."}
+                    ]
+                  }
   },
   {
     "id":26,
+    "rs":"",
     "name":"PATRON 20-20-20",
     "tipoProducto":{
       "id":14,
@@ -522,10 +842,29 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#D82323",
-    "imagen_url":["../../../assets/img/productos/PATRON 20-20-20.png"]
+    "imagen_url":["../../../assets/img/productos/PATRON 20-20-20.png"],
+    "composicion":{
+      "totalMuestra":"",
+      "elementos":[
+        {"elemento":"Nitrógeno(N)", "porcentaje": "20%"},
+        {"elemento":"Fosforo(P)", "porcentaje": "20%"},
+        {"elemento":"Potasio(K20)", "porcentaje": "20%"},
+        {"elemento":"Cobre(Cu)", "porcentaje": "26ppm"},
+        {"elemento":"Boro(B)", "porcentaje": "75ppm"},
+        {"elemento":"Zing(Zn o)", "porcentaje": "480ppm"},
+        {"elemento":"Magnesio(mg o)", "porcentaje": "280 ppm"},
+        {"elemento":"Hierro(Fe)", "porcentaje": "150 ppm"},
+        {"elemento":"Molibdeno(m o)", "porcentaje": "0.04 ppm"},
+        {"elemento":"Aminoácidos libres", "porcentaje": "0.3%"},
+        {"elemento":"Extractos de algas", "porcentaje": "0.5%"},
+        {"elemento":"Acidos Húmicos", "porcentaje": "1.5%"},
+        {"elemento":"Fitohormonas", "porcentaje": "trazas"}
+      ]
+    }
   },
   {
     "id":27,
+    "rs":"",
     "name":"PATRON - NITRÓGENO 32-12-10",
     "tipoProducto":{
       "id":14,
@@ -538,10 +877,31 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#D82323",
-    "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 32-12-10.png"]
+    "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 32-12-10.png"],
+    "composicion":{
+      "totalMuestra":"",
+      "elementos":[
+        {"elemento":"Nitrógeno total", "porcentaje": "32%"},
+        {"elemento":"Nitrógeno Nitrico", "porcentaje": "10.50%"},
+        {"elemento":"Nitrogeno Amoniacal(NHN)", "porcentaje": "21.50%"},
+        {"elemento":"Fosforo(P)", "porcentaje": "21%"},
+        {"elemento":"Potasio(K20)", "porcentaje": "10%"},
+        {"elemento":"Aminoácidos libres", "porcentaje": "0.3%"},
+        {"elemento":"Acidos Húmicos", "porcentaje": "2.5%"},
+        {"elemento":"Extractos de algas", "porcentaje": "0.5%"},
+        {"elemento":"Cobre(Cu)", "porcentaje": "20 ppm"},
+        {"elemento":"Zinc(ZN0)", "porcentaje": "450ppm"},
+        {"elemento":"Magnesio(mg o)", "porcentaje": "250ppm"},
+        {"elemento":"Hierro(Fe)", "porcentaje": "130ppm"},
+        {"elemento":"Molibdeno", "porcentaje": "0.05ppm"},
+        {"elemento":"Magneso(Mn)", "porcentaje": "100ppm"},
+        {"elemento":"Fitohormonas-trazas", "porcentaje": "0.59ppm"}
+      ]
+    }
   },
   {
     "id":28,
+    "rs":"",
     "name":"PATRON - FOSFORO 12-40-10",
     "tipoProducto":{
       "id":14,
@@ -554,10 +914,33 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#D82323",
-    "imagen_url":["../../../assets/img/productos/PATRON FOSFORO.png"]
+    "imagen_url":["../../../assets/img/productos/PATRON FOSFORO.png"],
+    "composicion":{
+      "totalMuestra":"",
+      "elementos":[
+
+        {"elemento":"Nitrógeno(N)", "porcentaje": "12%"},
+        {"elemento":"Fosforo(P)", "porcentaje": "40%"},
+        {"elemento":"Potasio(K20)", "porcentaje": "10%"},
+        {"elemento":"Aminoácidos", "porcentaje": "0.6%"},
+        {"elemento":"Extractos de algas", "porcentaje": "0.8%"},
+        {"elemento":"Ácidos carboxilicos", "porcentaje": "11%"},
+        {"elemento":"Ácidos húmicos", "porcentaje": "2%"},
+        {"elemento":"Cobre(Cu)", "porcentaje": "25ppm"},
+        {"elemento":"Boro(B)", "porcentaje": "150ppm"},
+        {"elemento":"Zinc(Zn)", "porcentaje": "75ppm"},
+        {"elemento":"Magnesio(MgU)", "porcentaje": "70ppm"},
+        {"elemento":"Hierro(Fe)", "porcentaje": "0.03ppm"},
+        {"elemento":"Molibdeno(Mo)", "porcentaje": "0.05ppm"},
+        {"elemento":"Magneso(Mn)", "porcentaje": "50ppm"},
+        {"elemento":"Fitohormonas", "porcentaje": "trazas"}
+
+      ]
+    }
   },
   {
     "id":29,
+    "rs":"",
     "name":"PATRON - POTASIO",
     "tipoProducto":{
       "id":14,
@@ -570,10 +953,30 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#D82323",
-    "imagen_url":["../../../assets/img/productos/PATRON POTASIO.png"]
+    "imagen_url":["../../../assets/img/productos/PATRON POTASIO.png"],
+    "composicion":{
+      "totalMuestra":"",
+      "elementos":[
+
+        {"elemento":"Nitrógeno", "porcentaje": "10%"},
+        {"elemento":"Fosforo", "porcentaje": "12%"},
+        {"elemento":"Potasio", "porcentaje": "40%"},
+        {"elemento":"Aminoácidos libres", "porcentaje": "1%"},
+        {"elemento":"Extractos de Ácidos Fulvicos", "porcentaje": "2.5%"},
+        {"elemento":"Ácidos húmicos", "porcentaje": "2%"},
+        {"elemento":"Molibdeno", "porcentaje": "0.015ppm"},
+        {"elemento":"Hierro(Fe)", "porcentaje": "50ppm"},
+        {"elemento":"Magnesio(Mg)", "porcentaje": "79ppm"},
+        {"elemento":"Zinc(Zn)", "porcentaje": "79ppm"},
+        {"elemento":"Cobre(Cu)", "porcentaje": "158ppm"},
+        {"elemento":"Manganeso", "porcentaje": "110ppm"}
+
+      ]
+    }
   },
   {
     "id":30,
+    "rs":"",
     "name":"PATRON - NITRÓGENO 50-12-10",
     "tipoProducto":{
       "id":14,
@@ -586,10 +989,34 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#D82323",
-    "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 50-12-10.png"]
+    "imagen_url":["../../../assets/img/productos/PATRON NITROGENO 50-12-10.png"],
+    "composicion":{
+      "totalMuestra":"",
+      "elementos":[
+
+        {"elemento":"Nitrógeno Ureico(CH4N2O)", "porcentaje": "36.14%"},
+        {"elemento":"Nitrógeno Aminocal(NHN)", "porcentaje": "13.86%"},
+        {"elemento":"Fosforo(P)", "porcentaje": "12%"},
+        {"elemento":"Potasio(K20)", "porcentaje": "10%"},
+        {"elemento":"Aminoácidos libres", "porcentaje": "0.3%"},
+        {"elemento":"Acidos Húmicos", "porcentaje": "2.5%"},
+        {"elemento":"Extractos de algas", "porcentaje": "0.5%"},
+        {"elemento":"Cobre(Cu)", "porcentaje": "20ppm"},
+        {"elemento":"Zinc(ZN0)", "porcentaje": "450ppm"},
+        {"elemento":"Magnesio(mg o)", "porcentaje": "250ppm"},
+        {"elemento":"Hierro(Fe)", "porcentaje": "130ppm"},
+        {"elemento":"Molibdeno", "porcentaje": "0.05ppm"},
+        {"elemento":"Magneso(Mn)", "porcentaje": "100ppm"},
+        {"elemento":"Aoxinas", "porcentaje": "0.80ppm"},
+        {"elemento":"Citoquinina", "porcentaje": "0.59ppm"},
+        {"elemento":"Humectante", "porcentaje": "5%"}
+
+      ]
+    }
   },
   {
     "id":31,
+    "rs":"",
     "name":"CHACAL 20-20-20",
     "tipoProducto":{
       "id":14,
@@ -602,6 +1029,26 @@
     "contra_indicaciones":false,
     "periodo_retiro":false,
     "color":"#D82323",
-    "imagen_url":["../../../assets/img/productos/CHACAL.png"]
+    "imagen_url":["../../../assets/img/productos/CHACAL.png"],
+    "composicion":{
+      "totalMuestra":"",
+      "elementos":[
+
+        {"elemento":"Nitrógeno(N)", "porcentaje": "20%"},
+        {"elemento":"Fosforo(P)", "porcentaje": "20%"},
+        {"elemento":"Potasio(K20)", "porcentaje": "20%"},
+        {"elemento":"Cobre(Cu)", "porcentaje": "18ppm"},
+        {"elemento":"Boro(B)", "porcentaje": "55ppm"},
+        {"elemento":"Zinc(Zn o)", "porcentaje": "360ppm"},
+        {"elemento":"Magnesio(mg o)", "porcentaje": "140ppm"},
+        {"elemento":"Hierro(Fe)", "porcentaje": "90ppm"},
+        {"elemento":"Molibdeno(m o)", "porcentaje": "0.02ppm"},
+        {"elemento":"Aminoácidos libres", "porcentaje": "0.2%"},
+        {"elemento":"Extractos de algas", "porcentaje": "0.3%"},
+        {"elemento":"Acidos Húmicos", "porcentaje": "0.9%"},
+        {"elemento":"Fitohormonas", "porcentaje": "trazas"}
+
+      ]
+    }
   }
 ]

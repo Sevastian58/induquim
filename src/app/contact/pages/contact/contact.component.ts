@@ -41,4 +41,16 @@ export class ContactComponent {
     }
   }
 
+
+  handleSubmit() {
+    alert("se ejecutó el handleSubmit");
+
+    const form: HTMLFormElement = this.elRef.nativeElement.querySelector('#formulario');
+    const botonCorreo: HTMLElement = this.elRef.nativeElement.querySelector('#correo-destino');
+    const formData = new FormData(form);
+    botonCorreo.setAttribute("href", `mailto:induquimventas@gmail.com?subject=${"Estoy interesado(a) en tus productos"}&body=${formData.get("comentario")} Soy ${formData.get("nombre")} ${formData.get("apellido")},  mi teléfono es ${formData.get("telefono")} y mi correo ${formData.get("email")}`);
+    botonCorreo.click();
+    return false;  // Evitar la recarga de la página
+  }
+
 }

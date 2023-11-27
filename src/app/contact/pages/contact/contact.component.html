@@ -7,7 +7,7 @@
       </div>
       <hr>
       <div id="contact-banner-texto" class="text-center">
-        <p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae. </p>
+        <p style="font-size: 1.3rem;">Nos alegra que visites nuestra página, si quieres hablar con nosotros aqui tienes información de contacto. </p>
       </div>
     </div>
 
@@ -15,37 +15,39 @@
 
       <div class="contact-banner-item">
         <div class="contact-banner-item-titulo text-center">
-          <h3>Negocios</h3>
+          <h3>VENTAS Y ASESORÍA TECNICA</h3>
         </div>
         <div class="contact-banner-item-texto text-center">
-          <p>Nam auctor consequat ex, non dignissim velit. Maecenas tincidunt volutpat commodo.</p>
+          <p>SUR-CENTRO-PUCALLPA</p>
         </div>
         <div class="contact-banner-item-contacto text-center">
-          <p>contacto&#64;gmail.com</p>
+          <p><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="call"></mat-icon>  999229065</p>
+          <p><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="call"></mat-icon>  978690012</p>
         </div>
       </div>
 
       <div class="contact-banner-item">
         <div class="contact-banner-item-titulo text-center">
-          <h3>Negocios</h3>
+          <h3>VENTAS Y ASESORÍA TECNICA</h3>
         </div>
         <div class="contact-banner-item-texto text-center">
-          <p>Nam auctor consequat ex, non dignissim velit. Maecenas tincidunt volutpat commodo.</p>
+          <p>NORTE-ORIENTE</p>
         </div>
         <div class="contact-banner-item-contacto text-center">
-          <p>contacto&#64;gmail.com</p>
+          <p><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="call"></mat-icon>  947456010</p>
         </div>
       </div>
 
       <div class="contact-banner-item">
         <div class="contact-banner-item-titulo text-center">
-          <h3>Negocios</h3>
+          <h3>OFICINA ADMINISTRATIVA</h3>
         </div>
         <div class="contact-banner-item-texto text-center">
-          <p>Nam auctor consequat ex, non dignissim velit. Maecenas tincidunt volutpat commodo.</p>
+          <p><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="call"></mat-icon>  962864247</p>
         </div>
         <div class="contact-banner-item-contacto text-center">
-          <p>contacto&#64;gmail.com</p>
+          <p><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="mail"></mat-icon>  induquimventas@gmail.com</p>
+          <p>Calle Las Puntas Mz. G Lote 17 Urb. Esmeralda Etapa 3 - Carabayllo Lima - Lima</p>
         </div>
       </div>
 
@@ -58,36 +60,37 @@
       </div>
       <hr>
       <div id="contact-form-texto" class="text-center">
-        <p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae. </p>
+        <p>Envíenos un mensaje para obtener más información sobre nuestros productos. </p>
       </div>
       <div id="contact-form-body" class="w-100">
-        <form>
+        <form id="formulario" (submit)="handleSubmit()">
           <div class="col-12 d-flex flex-wrap justify-content-center align-items-center">
             <div class="m-3 col-5">
               <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nombre">
                    </div>
             <div class="m-3 col-5">
               <label for="exampleInputEmail1" class="form-label">Apellido</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="apellido">
             </div>
           </div>
           <div class="col-12 d-flex flex-wrap justify-content-center align-items-center" id="correo-telefono">
             <div class="m-3 col-5">
               <label for="exampleInputEmail1" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                    </div>
             <div class="m-3 col-5">
               <label for="exampleInputEmail1" class="form-label">Telefono</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="telefono">
             </div>
           </div>
           <div class="col-12 d-flex flex-wrap justify-content-center align-items-center" id="mensaje">
               <div class="form-floating col-12 d-flex flex-column justify-content-center align-items-center" >
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="comentario"></textarea>
                 <label for="floatingTextarea">Comentarios</label>
               </div>
           </div>
+          <a href="mailto:induquimventas@gmail.com" id="correo-destino"></a>
 
           <div id="contact-form-body-footer">
             <button type="submit" class="btn btn-primary float-end m-5">Enviar</button>

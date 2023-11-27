@@ -34,7 +34,7 @@
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>Aqui va el icono</span>
+    <img src="../../../assets/img/logo.png" id="img-logo-responsive">
   </mat-toolbar>
 </div>
 
@@ -43,7 +43,7 @@
   <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Container wrapper -->
-  <div class="container">
+  <div class="nav-bar-big">
 
     <!-- Collapsible wrapper -->
     <div class="d-flex flex-row justify-content-between" [style.width]="navBarLeftWidth">
@@ -61,12 +61,30 @@
         <li class="nav-item">
           <a class="nav-link" href="#">INICIO</a>
         </li>
+        <span
+        style="
+                      font-size: 3em;
+                      color: black;
+                    "
+        >&#8226;</span>
         <li class="nav-item">
           <a class="nav-link" href="#" [routerLink]="['/producto']" routerLinkActive="router-link-active">PRODUCTOS</a>
         </li>
+        <span
+        style="
+                      font-size: 3em;
+                      color: black;
+                    "
+        >&#8226;</span>
         <li class="nav-item">
           <a class="nav-link" href="#"  [routerLink]="['/about']">NOSOTROS</a>
         </li>
+        <span
+        style="
+                      font-size: 3em;
+                      color: black;
+                    "
+        >&#8226;</span>
         <li class="nav-item">
           <a class="nav-link" href="#" [routerLink]="['/contact']">CONTACTO</a>
         </li>

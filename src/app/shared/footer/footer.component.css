@@ -3,6 +3,11 @@ footer{
   transform: translateY(60px);
   margin-top: 7vh;
 }
+#img-banner{
+  width: 222px;
+  padding: 5px;
+  background-color: white;
+}
 img{
   width: 32px;
 }

@@ -18,6 +18,7 @@ export class DetalleComponent {
 
     producto: Producto={
     id:0,
+    rs:"",
     name:"",
     tipoProducto:this.tipoProducto,
     indicaciones:"",
@@ -33,10 +34,13 @@ export class DetalleComponent {
   //definimos una variable global
   posImg:number=0;
   lengthListImg:number=0;
+  windowWidth:number=0
 
   constructor(private _route:ActivatedRoute, private productoService:ProductoService,
               private elRef: ElementRef, private renderer: Renderer2){
 
+                this.windowWidth = window.innerWidth;
+                window.addEventListener('resize', this.onResize.bind(this));
   }
 
   ngOnInit(){
@@ -46,7 +50,16 @@ export class DetalleComponent {
     }
 
     this.definirColores();
+    this.posicionarTablas();
   }
+
+  ngAfterViewInit() {
+    setTimeout(() => {
+      this.definirColores();
+      this.posicionarTablas();
+    }, 1000);
+  }
+
 
   buscarPorId(id:number):void{
     this.productoService.findById(id).subscribe(response => {
@@ -96,15 +109,17 @@ export class DetalleComponent {
     let anchoImg= imgElement.naturalWidth
     let altoImg= imgElement.naturalHeight
 
-    let newAncho= altoImg*(imgElement.width)/anchoImg
+    console.log("el alto es ", altoImg)
+    let newAlto= altoImg*(168.8)/anchoImg
 
     if(anchoImg>altoImg){
       imgElement.style.width= "400px";
       imgElement.style.height="100px";
     }
     else{
-      imgElement.style.width= "14vw";
-      imgElement.style.height= newAncho+"px";
+      imgElement.style.width= "168px";
+      imgElement.style.height= newAlto+"px";
+
     }
   }
 
@@ -127,18 +142,66 @@ export class DetalleComponent {
   definirColores() {
     // Modificar estilos de h3
     const elementH3List = this.elRef.nativeElement.querySelectorAll("h3");
+
     console.log(elementH3List)
     elementH3List.forEach((elementH3:HTMLElement)=> {
-      console.log("el h3 es ",elementH3)
+
       this.renderer.setStyle(elementH3, 'backgroundColor', this.producto.color);
     });
 
     // Modificar estilos de h4
     const elementH4List = this.elRef.nativeElement.querySelectorAll("h4");
     elementH4List.forEach((elementH4: HTMLElement)=> {
-      console.log("el h4 es ",elementH4)
+
       this.renderer.setStyle(elementH4, 'color', this.producto.color);
+    });
+
+    //modificar los estilos h6
+    const elementH5List = this.elRef.nativeElement.querySelectorAll("h5");
+    elementH5List.forEach((elementH5: HTMLElement)=> {
+
+      this.renderer.setStyle(elementH5, 'backgroundColor', this.producto.color);
+      this.renderer.setStyle(elementH5, 'color', "white");
     });
   }
 
+  onResize(){
+
+  }
+
+  posicionarTablas():void{
+    this.windowWidth=window.innerWidth
+
+    if((this.producto.composicion && this.producto.composicion.elementos && this.producto.composicion.elementos.length > 0)&&(this.producto.dosificacion && this.producto.dosificacion.length > 0)){
+      const detalleProducto:HTMLElement = this.elRef.nativeElement.querySelector("#detalle-producto");
+      if(detalleProducto){
+        detalleProducto.classList.add("justify-content-around")
+        detalleProducto.classList.remove("justify-content-end")
+        detalleProducto.classList.add("m-5")
+      }
+    }
+    else{
+      if (this.producto.composicion && this.producto.composicion.elementos && this.producto.composicion.elementos.length > 0) {
+        const detalleProducto:HTMLElement = this.elRef.nativeElement.querySelector("#detalle-producto");
+        if(detalleProducto){
+          detalleProducto.classList.remove("justify-content-around")
+          detalleProducto.classList.add("justify-content-end")
+          detalleProducto.classList.add("m-5")
+          detalleProducto.style.paddingRight="26%"
+        }
+      }
+
+      // Verificar si hay datos en la dosificación
+      if (this.producto.dosificacion && this.producto.dosificacion.length > 0) {
+        const detalleProducto:HTMLElement = this.elRef.nativeElement.querySelector("#detalle-producto");
+        if(detalleProducto){
+          detalleProducto.classList.remove("justify-content-around")
+          detalleProducto.classList.add("justify-content-end")
+          detalleProducto.classList.add("m-5")
+          detalleProducto.style.paddingRight="26%"
+        }
+      }
+    }
+
+  }
 }

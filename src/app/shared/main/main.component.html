@@ -48,7 +48,7 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
 
-        <div class="carousel-item" *ngFor="let item of listaProductos; let i = index" [class.active]="i === 0" data-bs-interval="10000">
+        <div class="carousel-item item" *ngFor="let item of listaProductos; let i = index" [class.active]="i === 0" data-bs-interval="10000">
 
 
           <div class="producto-item  producto-item-left  d-flex flex-wrap align-items-center justify-content-center">
@@ -91,7 +91,7 @@
       <div class="carousel-inner" id="carouselExampleIndicators-inner">
         <div class="carousel-item active">
           <div class="contenedor d-flex flex-wrap justify-content-center align-items-center" id="contenedor1">
-            <mat-card class="example-card m-3" *ngFor="let item of listaProductos1">
+            <mat-card class="example-card m-3 item-card" *ngFor="let item of listaProductos1">
               <mat-card-header>
                 <mat-card-title class="text-center">{{item.name}}</mat-card-title>
                 <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
@@ -108,7 +108,7 @@
         </div>
         <div class="carousel-item">
           <div class="contenedor d-flex flex-wrap justify-content-center align-items-center" id="contenedor2">
-            <mat-card class="example-card m-3" *ngFor="let item of listaProductos2">
+            <mat-card class="example-card m-3 item-card" *ngFor="let item of listaProductos2">
               <mat-card-header>
                 <mat-card-title class="text-center">{{item.name}}</mat-card-title>
                 <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
@@ -125,7 +125,7 @@
         </div>
         <div class="carousel-item">
           <div class="contenedor d-flex flex-wrap justify-content-center align-items-center" id="contenedor3">
-            <mat-card class="example-card m-3" *ngFor="let item of listaProductos3">
+            <mat-card class="example-card m-3 item-card" *ngFor="let item of listaProductos3">
               <mat-card-header>
                 <mat-card-title class="text-center">{{item.name}}</mat-card-title>
                 <mat-card-subtitle>{{item.tipoProducto.descripcion}}</mat-card-subtitle>
@@ -158,7 +158,7 @@
     <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
 
-        <div class="carousel-item" *ngFor="let item of listaProductosReverso; let i = index" [class.active]="i === 0"  data-bs-interval="10000">
+        <div class="carousel-item item" *ngFor="let item of listaProductosReverso; let i = index" [class.active]="i === 0"  data-bs-interval="10000">
 
           <div class="producto-item producto-item-right  last-item d-flex flex-wrap align-items-center justify-content-center mt-5 mb-5">
             <div class="producto-item-texto2 d-flex flex-column justify-content-center align-items-center">

@@ -1,7 +1,11 @@
+import { Composicion } from "./composicion";
+import { Composicion_item } from "./composicion_item";
+import { Dosificacion } from "./dosificacion";
 import { TipoProducto } from "./tipoProducto";
 
 export interface Producto{
   id:number,
+  rs:string,
   name:string,
   tipoProducto:TipoProducto,
   indicaciones:string,
@@ -11,7 +15,9 @@ export interface Producto{
   contra_indicaciones:boolean,
   periodo_retiro:boolean,
   imagen_url:string[],
-  color:string
+  color:string,
+  composicion?:Composicion,
+  dosificacion?:Dosificacion[]
 }
 
 

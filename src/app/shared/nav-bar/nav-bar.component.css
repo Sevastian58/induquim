@@ -21,14 +21,15 @@ a{
   color: black;
   font-family: SquareReg;
   font-size: 17px;
+  font-weight: bold;
 }
 a:hover{
   color: rgb(160, 153, 153);
 }
 img{
-  height: 54px;
-  padding: 3px;
-  width: auto;
+  max-height: 80px;
+  height: 60px;
+  padding: 5px;
 }
 mat-sidenav{
   position: fixed!important;
@@ -44,4 +45,10 @@ mat-toolbar{
 }
 .container{
   margin: 0!important;
+}
+#img-logo-responsive{
+  width: auto;
+  height: 60px;
+  background-color: white;
+  padding: 5px;
 }

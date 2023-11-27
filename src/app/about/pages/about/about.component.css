@@ -14,3 +14,12 @@ main {
 main h2, main p {
   color: #343a40; /* Color texto oscuro */
 }
+img{
+  width: 40vw;
+  min-width: 400px;
+}
+#texto{
+  width: 40vw;
+  margin: 10px;
+  max-width: 40vw;
+}

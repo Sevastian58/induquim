@@ -229,6 +229,7 @@ export class MainComponent {
     const elementsLeft: NodeListOf<HTMLElement> = this.elRef.nativeElement.querySelectorAll('.producto-item-left');
     const elementsRight: NodeListOf<HTMLElement> = this.elRef.nativeElement.querySelectorAll('.producto-item-right');
 
+    console.log("el ancho es ", this.windowWidth)
     let difElementLeft = (this.windowWidth - parseInt(window.getComputedStyle(elementsLeft[0]).width)) / 2;
     let difElementRight = (this.windowWidth - parseInt(window.getComputedStyle(elementsRight[0]).width)) / 2;
 
@@ -236,7 +237,7 @@ export class MainComponent {
     elementsLeft.forEach((element: HTMLElement) => {
 
 
-      if (this.windowWidth <= 900) {
+      if (this.windowWidth <= 900 && (difElementLeft*2+parseInt(window.getComputedStyle(element).width))<=this.windowWidth) {
         element.style.marginLeft = difElementLeft + "px";
         element.style.marginRight = "0";
       } else {
@@ -257,6 +258,29 @@ export class MainComponent {
         element.style.marginLeft = "15%";
       }
     });
+
+
+
+    this.resizePasarelaMultiElemento();
   }
+
+  resizePasarelaMultiElemento() {
+    this.windowWidth = window.innerWidth;
+    const contenedores: NodeListOf<HTMLElement> = this.elRef.nativeElement.querySelectorAll('.contenedor');
+    const items: NodeListOf<HTMLElement> = this.elRef.nativeElement.querySelectorAll('.item-card');
+    let heightItem = window.getComputedStyle(items[0]).height;
+
+    if (this.windowWidth <= 900) {
+      contenedores.forEach((element: HTMLElement) => {
+        element.style.height = "auto";
+      });
+    } else {
+      heightItem = heightItem + 50;
+      contenedores.forEach((element: HTMLElement) => {
+        element.style.height = heightItem + "px";
+      });
+    }
+  }
+
 
 }

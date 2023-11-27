@@ -60,3 +60,17 @@
 #producto-imagenes>img{
   width: 33.3%;
 }
+#detalle-producto{
+  width: 100%;
+}
+h5{
+  width: 40%;
+  padding: 15px;
+  border-radius: 12px;
+}
+#detalle-producto-composicion{
+  width: 20vw;
+}
+#detalle-producto-dosificacion{
+  width: 20vw;
+}

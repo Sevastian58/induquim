@@ -49,6 +49,13 @@
         </div>
       </div>
 
+      <div id="producto-administracion" *ngIf="producto.administracion!=''" class="d-flex flex-column">
+        <h4>Administracion</h4>
+        <div id="producto-almacenamiento-descripcion" class="d-flex flex-column align-items-start">
+          <p>{{producto.administracion}}</p>
+        </div>
+      </div>
+
       <div id="producto-contra-indicaciones" class="d-flex flex-column">
         <h4>Contra indicaciones</h4>
         <div id="producto-contra-indicaciones-descripcion" class="d-flex flex-column align-items-start">
@@ -65,7 +72,50 @@
         </div>
       </div>
 
+      <div id="producto-codigo"  *ngIf="producto.rs!=''" class="d-flex flex-column">
+        <h5>{{producto.rs}}</h5>
+      </div>
+
 
     </div>
+    <div id="detalle-producto" class="d-flex flex-wrap justify-content-around align-items-start">
+      <div id="detalle-producto-composicion" *ngIf="producto.composicion?.elementos" >
+        <h4>Composición</h4>
+        <h6>{{producto.composicion?.totalMuestra}}</h6>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>INGREDIENTES ACTIVOS</th>
+              <th>CANTIDAD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of producto.composicion?.elementos">
+              <td>{{item.elemento}}</td>
+              <td>{{item.porcentaje}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="detalle-producto-dosificacion"  *ngIf="producto.dosificacion">
+        <h4>Dosificación</h4>
+        <h6> Dosis recomendada</h6>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ESPECIES</th>
+              <th>DOSIS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of producto.dosificacion">
+              <td>{{item.especies}}</td>
+              <td>{{item.dosisDiariaXAnimal}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
+  <app-footer></app-footer>
 </mat-sidenav-container>

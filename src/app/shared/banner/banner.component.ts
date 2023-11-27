@@ -58,19 +58,19 @@ export class BannerComponent {
           //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<730){
-          bannerElement.style.height="30vh";
-          bannerDescripcion.style.height="30vh";
+          bannerElement.style.height="35vh";
+          bannerDescripcion.style.height="35vh";
           bannerTexto.style.height="100%";
           //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<530){
-          bannerElement.style.height="30vh";
-          bannerDescripcion.style.height="30vh";
+          bannerElement.style.height="35vh";
+          bannerDescripcion.style.height="35vh";
           bannerTexto.style.height="100%";
           //bannerDescripcion.style.width=this.windowWidth + "px";
         }
         if(this.windowWidth<400){
-          bannerElement.style.height="30vh";
+          bannerElement.style.height="35vh";
           //bannerDescripcion.style.height="14vh";
           //bannerDescripcion.style.width=this.windowWidth + "px";
         }
