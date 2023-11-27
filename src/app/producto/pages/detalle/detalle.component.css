@@ -70,7 +70,9 @@ h5{
 }
 #detalle-producto-composicion{
   width: 20vw;
+  min-width: 300px;
 }
 #detalle-producto-dosificacion{
   width: 20vw;
+  min-width: 300px;
 }
