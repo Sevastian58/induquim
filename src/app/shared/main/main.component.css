@@ -144,7 +144,7 @@ h4{
 }
 .contenedor{
   /*min-height: 65vh;*/
-  width: 90vw;
+  width: 100vw;
 }
 #contenedor1{
 background-color: #d2d2d3;
@@ -162,6 +162,7 @@ background-color: #d2d2d3;
 #carouselExampleIndicators{
   margin-top: 14vh;
   margin-bottom: none;
+  width: 100%;
 }
 #all-products{
   width: 100%;
