@@ -1,7 +1,7 @@
 [
   {
     "id":1,
-    "rs":"R.S. A.36.07.N.0021",
+    "rs":"REGISTRO SENASA: A.36.07.N.0021",
     "name":"TONICON",
     "tipoProducto":{
       "id":1,
@@ -46,7 +46,7 @@
   },
   {
     "id":2,
-    "rs":"A.036.019.N.01078",
+    "rs":"REGISTRO SENASA: A.036.019.N.01078",
     "name":"ROBUSTO",
     "tipoProducto":{
       "id":2,
@@ -100,7 +100,7 @@
   },
   {
     "id":3,
-    "rs":"R.S. A.36.07.N.0126",
+    "rs":"REGISTRO SENASA: A.36.07.N.0126",
     "name":"KALMITA",
     "tipoProducto":{
       "id":3,
@@ -145,7 +145,7 @@
   },
   {
     "id":4,
-    "rs":"R.S. A.36.07.N.0142",
+    "rs":"REGISTRO SENASA: A.36.07.N.0142",
     "name":"WAIKI",
     "tipoProducto":{
       "id":4,
@@ -191,7 +191,7 @@
   },
   {
     "id":5,
-    "rs":"R.S. F.54.02.N.0230",
+    "rs":"REGISTRO SENASA: F.54.02.N.0230",
     "name":"SANITO 22.2%",
     "tipoProducto":{
       "id":5,
@@ -253,7 +253,7 @@
   },
   {
     "id":7,
-    "rs":"R.S. F.08.02.N.1000",
+    "rs":"REGISTRO SENASA: F.08.02.N.1000",
     "name":"WASON A15%",
     "tipoProducto":{
       "id":6,
@@ -284,7 +284,7 @@
   },
   {
     "id":8,
-    "rs":"R.S. F.08.36.N.0998",
+    "rs":"REGISTRO SENASA: F.08.36.N.0998",
     "name":"WASON T15%",
     "tipoProducto":{
       "id":6,
@@ -315,7 +315,7 @@
   },
   {
     "id":9,
-    "rs":"R.S. F.08.02.I.1046",
+    "rs":"REGISTRO SENASA: F.08.02.I.1046",
     "name":"WASON 22%",
     "tipoProducto":{
       "id":5,
@@ -347,7 +347,7 @@
   },
   {
     "id":10,
-    "rs":"R.S. F.08.02.N.1053",
+    "rs":"REGISTRO SENASA: F.08.02.N.1053",
     "name":"WASON R24%",
     "tipoProducto":{
       "id":6,
@@ -380,7 +380,7 @@
   },
   {
     "id":11,
-    "rs":"R.S. F.08.36.N.1049",
+    "rs":"REGISTRO SENASA: F.08.36.N.1049",
     "name":"WASON -F10%",
     "tipoProducto":{
       "id":6,
@@ -411,7 +411,7 @@
   },
   {
     "id":12,
-    "rs":"R.S. F.08.85.N.1113",
+    "rs":"REGISTRO SENASA: F.08.85.N.1113",
     "name":"TERMINADOR C12%",
     "tipoProducto":{
       "id":5,
@@ -442,7 +442,7 @@
   },
   {
     "id":13,
-    "rs":"R.S. F.08.02.N.1135",
+    "rs":"REGISTRO SENASA: F.08.02.N.1135",
     "name":"ARROJADOR",
     "tipoProducto":{
       "id":5,
@@ -478,7 +478,7 @@
   },
   {
     "id":14,
-    "rs":"R.S. F.09.70.N.0276",
+    "rs":"REGISTRO SENASA: F.09.70.N.0276",
     "name":"SANITO 12.5%",
     "tipoProducto":{
       "id":5,
@@ -505,7 +505,7 @@
   },
   {
     "id":15,
-    "rs":"R.S. A.36.07.N.0020",
+    "rs":"REGISTRO SENASA: A.36.07.N.0020",
     "name":"CRIADOR",
     "tipoProducto":{
       "id":7,
@@ -544,7 +544,7 @@
   },
   {
     "id":16,
-    "rs":"R.S. F.08.70.N.1043",
+    "rs":"REGISTRO SENASA: F.08.70.N.1043",
     "name":"PANAFIN 5%",
     "tipoProducto":{
       "id":8,
@@ -568,7 +568,7 @@
   },
   {
     "id":17,
-    "rs":"R.S. F.09.33.N.0267",
+    "rs":"REGISTRO SENASA: F.09.33.N.0267",
     "name":"SARNAPEC",
     "tipoProducto":{
       "id":6,
@@ -596,7 +596,7 @@
   },
   {
     "id":18,
-    "rs":"R.S. F.87.33.N.0329",
+    "rs":"REGISTRO SENASA: F.87.33.N.0329",
     "name":"SANITO FULL",
     "tipoProducto":{
       "id":9,
@@ -624,7 +624,7 @@
   },
   {
     "id":19,
-    "rs":"R.S. F.82.32.N.0215",
+    "rs":"REGISTRO SENASA: F.82.32.N.0215",
     "name":"COLIPEC",
     "tipoProducto":{
       "id":10,
@@ -652,7 +652,7 @@
   },
   {
     "id":20,
-    "rs":"R.S. F.10.33.N.0253",
+    "rs":"REGISTRO SENASA: F.10.33.N.0253",
     "name":"YODOPEC",
     "tipoProducto":{
       "id":11,
@@ -681,7 +681,7 @@
   },
   {
     "id":21,
-    "rs":"R.S. F..99.55.N.0097",
+    "rs":"REGISTRO SENASA: F..99.55.N.0097",
     "name":"DOLOKIT",
     "tipoProducto":{
       "id":12,

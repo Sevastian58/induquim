@@ -7,8 +7,8 @@
   src: url("../../../assets/fonts/sqr721bi.ttf");
 }
 @font-face {
-  font-family: SquareReg;
-  src: url("../../../assets/fonts/Typo_Square_Regular.otf");
+  font-family: SquareDn;
+  src: url("../../../assets/fonts/sqr721dn.ttf");
 }
 nav{
   background-color: white !important;
@@ -19,7 +19,7 @@ nav{
 }
 a{
   color: black;
-  font-family: SquareReg;
+  font-family: SquareDn;
   font-size: 17px;
   font-weight: bold;
 }

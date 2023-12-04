@@ -37,7 +37,7 @@
 #producto-img-main{
   margin-top: 5%;
   max-height: 450px;
-  min-width: 180px;
+  min-width: 100px;
   height: 60vh;
   width: auto;
 }
@@ -75,4 +75,7 @@ h5{
 #detalle-producto-dosificacion{
   width: 20vw;
   min-width: 300px;
+}
+#producto-img-container{
+  min-height: 360px;
 }

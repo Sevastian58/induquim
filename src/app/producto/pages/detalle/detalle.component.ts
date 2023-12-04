@@ -57,7 +57,9 @@ export class DetalleComponent {
     setTimeout(() => {
       this.definirColores();
       this.posicionarTablas();
-    }, 1000);
+      const imgPrincipal:HTMLImageElement=this.elRef.nativeElement.querySelector('#producto-img-main');
+      this.ajustarTamnioImg(imgPrincipal);
+    }, 500);
   }
 
 
@@ -109,17 +111,22 @@ export class DetalleComponent {
     let anchoImg= imgElement.naturalWidth
     let altoImg= imgElement.naturalHeight
 
+    console.log("el ancho real es:", anchoImg);
+
     console.log("el alto es ", altoImg)
     let newAlto= altoImg*(168.8)/anchoImg
 
     if(anchoImg>altoImg){
       imgElement.style.width= "400px";
-      imgElement.style.height="100px";
+      imgElement.style.height="auto";
     }
-    else{
+    if(anchoImg/altoImg<=0.35 && altoImg>anchoImg){
+      imgElement.style.width="140px";
+      imgElement.style.height="600px";
+    }
+    if(altoImg>anchoImg && anchoImg/altoImg>0.35){
       imgElement.style.width= "168px";
       imgElement.style.height= newAlto+"px";
-
     }
   }
 

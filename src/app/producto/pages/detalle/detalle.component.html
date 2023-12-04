@@ -6,9 +6,10 @@
         <button mat-raised-button color="accent"  id="producto-img-button-left" class="red" (click)="anterior()">Anterior</button>
         <button mat-raised-button color="accent" id="producto-img-button-rigth" class="red" (click)="siguiente()">Siguiente</button>
       </div>
-      <img src="{{producto.imagen_url[posImg]}}" id="producto-img-main">
 
-
+      <div id="producto-img-container" class="d-flex flex-column justify-content-center align-items-center">
+        <img src="{{producto.imagen_url[posImg]}}" id="producto-img-main">
+      </div>
       <div id="producto-img-lista" class="d-flex flex-row justify-content-left align-items-end">
         <div *ngFor="let item of producto.imagen_url; let i = index" class="producto-lista-item">
           <img src="{{item}}"  *ngIf="item!==producto.imagen_url[posImg]" class="producto-img-lista-item" (load)="ordenarImg($event, i)" >
