@@ -10,6 +10,10 @@
   font-family: SquareDn;
   src: url("../../../assets/fonts/sqr721dn.ttf");
 }
+@font-face {
+  font-family: SquareRegular;
+  src: url("../../../assets/fonts/Typo_Square_Regular.otf");
+}
 nav {
   background-color: #24aff4 !important;
   position: fixed;
@@ -26,9 +30,8 @@ nav {
 
 a {
   color: white;
-  font-family: SquareDn;
+  font-family: SquareRegular;
   font-size: 17px;
-  font-weight: bold;
 }
 
 a:hover {
